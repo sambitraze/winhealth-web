@@ -16,6 +16,7 @@ module.exports = {
         themeWhite: '#F2F2F2',
         themeGrey: '#4B4D52',
         themePink: '#EEA1B3',
+        themeDarkGrey: '#1D1D1B',
       },
     },
   },
