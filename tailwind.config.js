@@ -7,7 +7,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-inter)', ...fontFamily.sans],
+        brandon: ['var(--font-brandon)', ...fontFamily.sans],
+        proxima: ['var(--font-proxima)', ...fontFamily.sans],
+        ptSans: ['var(--font-pt-sans)', ...fontFamily.sans],
       },
     },
   },

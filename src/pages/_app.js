@@ -1,11 +1,11 @@
-import { Inter } from 'next/font/google';
 import '../styles/globals.css';
-
-const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+import { brandon, proxima, ptSans } from '../utils/fonts';
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${inter.variable} font-sans`}>
+    <main
+      className={`${brandon.variable} ${proxima.variable} ${ptSans.variable} font-brandon`}
+    >
       <Component {...pageProps} />
     </main>
   );
