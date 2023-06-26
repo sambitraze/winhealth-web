@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const TestimonialCard = ({ name, designation, image, testimonial }) => {
   return (
-    <div className="space-y-4 rounded-md bg-themeLightBlue p-4">
+    <div className="space-y-4 rounded-md bg-themeLightBlue px-4 pb-10 pt-4 md:pb-4">
       <div className="flex items-center gap-4">
         <Image
           src={image.src}
