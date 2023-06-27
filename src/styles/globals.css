@@ -20,5 +20,8 @@
 }
 
 .mantine-Carousel-indicator {
-  background-color: white !important;
+  background-color: #BDBDBD !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
 }
