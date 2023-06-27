@@ -6,7 +6,7 @@ import Title from '../Title';
 
 const TestimonialSection = () => {
   return (
-    <div className="bg-themeWhite py-14">
+    <div className="bg-themeWhite py-7 md:py-14">
       <div className="container">
         <Title text={'We earned lifetime full of trust'} />
         <Description
@@ -15,7 +15,7 @@ const TestimonialSection = () => {
           }
         />
 
-        <div className="mt-14 hidden justify-center gap-6 md:grid md:grid-cols-3">
+        <div className="mt-7 hidden justify-center gap-6 md:mt-14 md:grid md:grid-cols-3">
           {[1, 2, 3].map((item, index) => {
             return (
               <TestimonialCard

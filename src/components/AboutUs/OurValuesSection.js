@@ -13,7 +13,7 @@ const ValuesCard = ({ text }) => {
 
 const OurValuesSection = () => {
   return (
-    <div className="py-14">
+    <div className="py-7 md:py-14">
       <div className="container">
         <Title text={'We earned lifetime full of trust'} />
         <Description
@@ -22,7 +22,7 @@ const OurValuesSection = () => {
           }
         />
 
-        <div className="mt-14 hidden justify-center gap-6 md:grid md:grid-cols-3">
+        <div className="mt-7 hidden justify-center gap-6 md:mt-14 md:grid md:grid-cols-3">
           {[1, 2, 3].map((item, index) => {
             return (
               <ValuesCard
