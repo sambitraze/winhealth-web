@@ -1,22 +1,21 @@
 import React from 'react';
 import { Carousel } from '@mantine/carousel';
 import TestimonialCard from './TestimonialCard';
+import Description from '../Description';
+import Title from '../Title';
 
 const TestimonialSection = () => {
   return (
-    <div className="bg-themeWhite py-10">
+    <div className="bg-themeWhite py-14">
       <div className="container">
-        <p className="mb-4 text-center text-2xl font-medium capitalize text-themeGrey md:text-3xl">
-          We earned lifetime full of trust
-        </p>
-        <p className="mx-auto max-w-2xl text-center text-themeGrey">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          venenatis gravida est, in porttitor orci vulputate quis. Integer eu
-          tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit
-          amet aliquam mi.
-        </p>
+        <Title text={'We earned lifetime full of trust'} />
+        <Description
+          text={
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi.'
+          }
+        />
 
-        <div className="mt-6 hidden justify-center gap-6 md:grid md:grid-cols-3">
+        <div className="mt-14 hidden justify-center gap-6 md:grid md:grid-cols-3">
           {[1, 2, 3].map((item, index) => {
             return (
               <TestimonialCard

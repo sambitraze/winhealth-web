@@ -12,7 +12,7 @@ const NavItem = ({ item }) => {
       key={item.id}
       href={item.href}
       className={`${
-        router.pathname.startsWith(item.href) ? 'underline' : 'hover:underline'
+        router.pathname === item.href ? 'underline' : 'hover:underline'
       } max-w-fit font-medium uppercase text-white underline-offset-4 transition-all duration-300`}
     >
       {item.name}
