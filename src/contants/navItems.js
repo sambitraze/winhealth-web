@@ -7,7 +7,7 @@ export const NAVITEMS = [
   {
     id: 2,
     name: 'Price',
-    href: '/price',
+    href: '/pricing',
   },
   {
     id: 3,
