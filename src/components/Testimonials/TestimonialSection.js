@@ -34,7 +34,7 @@ const TestimonialSection = () => {
           })}
         </div>
 
-        <div className="mt-7 md:hidden">
+        <div className="mt-7 pb-12 md:hidden">
           <Carousel
             slideSize="100%"
             slideGap="md"
