@@ -27,7 +27,7 @@ export const NAVITEMS = [
   {
     id: 6,
     name: 'Blog',
-    href: '/blog',
+    href: '/blogs',
   },
   {
     id: 7,
