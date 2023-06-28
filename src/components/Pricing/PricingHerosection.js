@@ -10,11 +10,6 @@ const PricingHerosection = () => {
         <div className="flex flex-col justify-center gap-2">
           <Title type={'herosection'} text={'Caring is priceless'} />
           <Description
-            text={'We regularly upgrade our blogs.'}
-            type={'herosection'}
-            className="font-semibold"
-          />
-          <Description
             text={
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi. Donec id elementum urna. Aenean et est odio. Nunc nunc neque, venenatis fringilla nunc.'
             }
