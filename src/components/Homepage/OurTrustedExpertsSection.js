@@ -14,7 +14,7 @@ const OurTrustedExpertsSection = () => {
           height={500}
           className="order-2 md:order-none"
         />
-        <div className="flex flex-col justify-center gap-2">
+        <div className="flex flex-col justify-center gap-2 md:gap-4">
           <Title
             text={'our trusted experts at your care'}
             type={'herosection'}

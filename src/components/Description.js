@@ -12,7 +12,7 @@ const Description = ({ text, className, type }) => {
   return (
     <p
       className={twMerge(
-        `mx-auto max-w-3xl text-center font-proxima text-themeGrey`,
+        `mx-auto max-w-3xl text-center font-proxima text-sm text-themeGrey md:text-base`,
         className
       )}
     >

@@ -19,7 +19,7 @@ const Title = ({ text, className, type }) => {
   return (
     <p
       className={twMerge(
-        `mb-4 text-center text-2xl font-medium capitalize text-themeGrey md:text-3xl`,
+        `mb-2 text-center text-2xl font-medium capitalize text-themeGrey md:mb-4 md:text-3xl`,
         className
       )}
     >
