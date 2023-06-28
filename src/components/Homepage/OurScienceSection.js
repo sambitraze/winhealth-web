@@ -18,7 +18,7 @@ const OurScienceSection = () => {
           alt={'Our Team'}
           width={1200}
           height={600}
-          className="mx-auto hidden h-auto max-w-screen-lg object-contain md:block"
+          className="mx-auto hidden h-auto object-contain md:block xl:max-w-screen-lg"
         />
         <Image
           src={'/assets/our-science-sm.svg'}
