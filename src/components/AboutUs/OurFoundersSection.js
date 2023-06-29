@@ -31,7 +31,7 @@ const OurTeamSection = () => {
           })}
         </div>
 
-        <div className="mt-7 md:hidden">
+        <div className="mt-7 pb-12 md:hidden">
           <Carousel
             slideSize="75%"
             slideGap="md"

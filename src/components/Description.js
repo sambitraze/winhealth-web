@@ -1,10 +1,18 @@
 import { twMerge } from 'tailwind-merge';
 
-const Description = ({ text, className }) => {
+const Description = ({ text, className, type }) => {
+  if (type === 'herosection') {
+    return (
+      <p className={twMerge(`font-proxima text-themeMediumGrey`, className)}>
+        {text}
+      </p>
+    );
+  }
+
   return (
     <p
       className={twMerge(
-        `mx-auto max-w-3xl text-center font-proxima text-themeGrey`,
+        `mx-auto max-w-3xl text-center font-proxima text-sm text-themeGrey md:text-base`,
         className
       )}
     >

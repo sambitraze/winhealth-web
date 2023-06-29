@@ -19,6 +19,8 @@ module.exports = {
         themePink: '#EEA1B3',
         themeDarkGrey: '#1D1D1B',
         themeDarkPink: '#EB7B8B',
+        themeMediumGrey: '#76777A',
+        lightBrown: '#B4B4B4',
       },
     },
   },

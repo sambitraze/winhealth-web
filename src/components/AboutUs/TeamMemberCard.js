@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const TeamMemberCard = ({ name, designation, image }) => {
   return (
-    <div className="pb-10 md:pb-0">
+    <div>
       <Image
         src={image.src}
         alt={name}
