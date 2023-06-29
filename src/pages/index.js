@@ -5,11 +5,13 @@ import OurTrustedExpertsSection from '../components/Homepage/OurTrustedExpertsSe
 import OurScienceSection from '../components/Homepage/OurScienceSection';
 import CareApproachSection from '../components/Homepage/CareApproachSection';
 import DownloadAppSection from '../components/Homepage/DownloadAppSection';
+import ConditionWeTreatedSection from '../components/Homepage/ConditionWeTreatedSection';
 
 export default function Home() {
   return (
     <Layout>
       <HomepageHerosection />
+      <ConditionWeTreatedSection />
       <DownloadAppSection />
       <CareApproachSection />
       <OurScienceSection />
