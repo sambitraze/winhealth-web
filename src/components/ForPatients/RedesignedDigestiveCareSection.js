@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../Title';
 import Description from '../Description';
 import Image from 'next/image';
+import CustomLink from '../CustomLink';
 
 const RedesignedDigestiveCareSection = () => {
   return (
@@ -14,6 +15,11 @@ const RedesignedDigestiveCareSection = () => {
         width={1280}
         height={500}
         className="mt-4 h-auto w-full object-contain"
+      />
+      <CustomLink
+        text={'Our Approach'}
+        link={'#'}
+        className="mx-auto mt-4 block"
       />
     </div>
   );
