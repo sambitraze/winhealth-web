@@ -5,32 +5,32 @@ const facilities = [
   {
     id: 1,
     name: 'Diagnostics',
-    icon: '/assets/facilities/diagnostics.svg',
+    icon: '/assets/facilities/microscope.svg',
   },
   {
     id: 2,
     name: 'Medications',
-    icon: '/assets/facilities/medications.svg',
+    icon: '/assets/facilities/tablets.svg',
   },
   {
     id: 3,
     name: 'Nutrition',
-    icon: '/assets/facilities/nutrition.svg',
+    icon: '/assets/facilities/diet.svg',
   },
   {
     id: 4,
     name: 'Mind-Gut',
-    icon: '/assets/facilities/mind-gut.svg',
+    icon: '/assets/facilities/mind.svg',
   },
   {
     id: 5,
     name: 'Lifestyle',
-    icon: '/assets/facilities/lifestyle.svg',
+    icon: '/assets/facilities/heart.svg',
   },
   {
     id: 6,
     name: 'Monitoring',
-    icon: '/assets/facilities/monitoring.svg',
+    icon: '/assets/facilities/mobile.svg',
   },
 ];
 
