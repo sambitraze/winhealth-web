@@ -26,7 +26,11 @@ const BlogCard = ({ title, link, imageURL, date, isEven }) => {
         </p>
         <a
           href={link}
-          className="mt-2 inline-block font-ptSans text-sm underline underline-offset-2 hover:text-themeWhite md:mt-4"
+          className={`
+            ${
+              isEven ? 'hover:text-themeMediumGrey' : 'hover:text-themeWhite'
+            } mt-2 inline-block font-ptSans text-sm underline underline-offset-2 md:mt-4
+          `}
         >
           Read the Post
         </a>
