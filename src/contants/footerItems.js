@@ -11,7 +11,7 @@ export const FOOTER_ITEMS = [
       {
         id: 2,
         name: 'Price',
-        href: '/price',
+        href: '/pricing',
       },
       {
         id: 3,
@@ -31,7 +31,7 @@ export const FOOTER_ITEMS = [
       {
         id: 6,
         name: 'Blog',
-        href: '/blog',
+        href: '/blogs',
       },
     ],
   },
