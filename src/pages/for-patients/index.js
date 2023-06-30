@@ -10,6 +10,7 @@ import PatientsTestimonialsSection from '../../components/ForPatients/PatientsTe
 import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForPatients/DiagnosisAndTreatmentForDigestiveHealthSection';
 import RelationshipCareAndDeliveredVirtuallySection from '../../components/ForPatients/RelationshipCareAndDeliveredVirtuallySection';
 import BetterDigestiveHealthOutcomes from '../../components/ForPatients/BetterDigestiveHealthOutcomes';
+import IntegratedWithHealthBenefitSection from '../../components/ForPatients/IntegratedWithHealthBenefitSection';
 
 const ForPatients = () => {
   return (
@@ -22,6 +23,7 @@ const ForPatients = () => {
       <RelationshipCareAndDeliveredVirtuallySection />
       <WeCoordinateInPersonSection />
       <BetterDigestiveHealthOutcomes />
+      <IntegratedWithHealthBenefitSection />
       <PatientsTestimonialsSection />
       <LatestNewsSection />
     </Layout>
