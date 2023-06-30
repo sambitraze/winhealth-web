@@ -6,6 +6,7 @@ import RedesignedDigestiveCareSection from '../../components/ForPatients/Redesig
 import SilentAndSignificantProblemSection from '../../components/ForPatients/SilentAndSignificantProblemSection';
 import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForPatients/DiagnosisAndTreatmentForDigestiveHealthSection';
 import WeCoordinateInPersonSection from '../../components/ForPatients/WeCoordinateInPersonSection';
+import LatestNewsSection from '../../components/ForPatients/LatestNewsSection';
 
 const ForPatients = () => {
   return (
@@ -16,6 +17,7 @@ const ForPatients = () => {
       <RedesignedDigestiveCareSection />
       <DiagnosisAndTreatmentForDigestiveHealthSection />
       <WeCoordinateInPersonSection />
+      <LatestNewsSection />
     </Layout>
   );
 };
