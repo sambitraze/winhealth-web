@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from '../Title';
-import Description from '../Description';
 import Image from 'next/image';
 import { Carousel } from '@mantine/carousel';
 
@@ -27,7 +26,7 @@ const facilities = [
 
 const FacilityCard = ({ facility }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2">
+    <div className="flex flex-col items-center justify-start gap-2">
       <Image
         src={facility.icon}
         alt={"Facility's Icon"}
@@ -35,7 +34,7 @@ const FacilityCard = ({ facility }) => {
         height={100}
         className="h-auto max-w-[80px] md:max-w-[100px]"
       />
-      <p className="mx-auto max-w-xs text-center font-brandon text-sm font-medium tracking-wider text-themeGrey md:text-base">
+      <p className="mx-auto max-w-xs text-center font-proxima text-sm font-medium tracking-wider text-themeGrey md:text-base">
         {facility.description}
       </p>
     </div>

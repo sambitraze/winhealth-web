@@ -38,7 +38,7 @@ const facilities = [
 
 const FacilityCard = ({ facility }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-2">
+    <div className="flex flex-col items-center justify-start gap-2">
       <Image
         src={facility.icon}
         alt={facility.name}

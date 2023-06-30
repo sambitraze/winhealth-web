@@ -9,13 +9,13 @@ const PatientsTestimonialCard = ({
   isImageToTheLeft = true,
 }) => {
   return (
-    <div className="grid gap-4 md:grid-cols-6">
+    <div className="grid gap-4 overflow-x-scroll md:grid-cols-6">
       <Image
         src={image}
         alt={name}
         width={150}
         height={150}
-        className={`mx-auto h-auto max-w-[120px] object-contain md:max-w-[150px] ${
+        className={`mx-auto h-auto object-contain lg:max-w-[150px] ${
           isImageToTheLeft ? 'order-first' : 'md:order-last'
         }`}
       />
