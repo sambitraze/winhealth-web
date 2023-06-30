@@ -9,23 +9,23 @@ const Footer = () => {
   return (
     <div className="bg-themeDarkGrey">
       <div className="container flex flex-col gap-10 py-10">
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-12">
-          <div className="flex flex-col gap-4 lg:col-span-4">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-12">
+          <div className="flex flex-col gap-2 md:gap-4 lg:col-span-4">
             <p className="font-semibold uppercase tracking-wide text-white md:text-lg">
               Subscribe to latest updates
             </p>
             <SubscribeToNewsletterForm />
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2 md:gap-4">
               <p className="font-light text-white">
                 Sign up and receive exclusive curated only for our expert
                 bulletin as well as blogs and articles
               </p>
             </div>
-            <div className="hidden flex-col gap-4 md:flex">
+            <div className="hidden flex-col gap-2 md:flex md:gap-4">
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us
               </p>
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2 md:gap-4">
                 {SOCIAL_ITEMS.map((item) => {
                   return (
                     <a href={item.href} key={item.id}>
@@ -43,11 +43,11 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 lg:col-span-4">
+          <div className="flex flex-col gap-2 md:gap-4 lg:col-span-4">
             <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
               Download App
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 md:gap-4">
               <a href="#">
                 <Image
                   src={'/assets/app-store.png'}
@@ -71,11 +71,14 @@ const Footer = () => {
 
           {FOOTER_ITEMS.map((item) => {
             return (
-              <div key={item.id} className="flex flex-col gap-4 lg:col-span-2">
+              <div
+                key={item.id}
+                className="flex flex-col gap-2 md:gap-4 lg:col-span-2"
+              >
                 <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                   {item.section}
                 </p>
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-2 md:gap-4">
                   {item.links.map((link) => {
                     return (
                       <Link
@@ -92,11 +95,11 @@ const Footer = () => {
             );
           })}
 
-          <div className="flex flex-col gap-4 md:hidden">
+          <div className="flex flex-col gap-2 md:hidden md:gap-4">
             <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
               Follow us
             </p>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-2 md:gap-4">
               {SOCIAL_ITEMS.map((item) => {
                 return (
                   <a href={item.href} key={item.id}>
@@ -114,9 +117,9 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
           <Logo />
-          <p className="font-proxima uppercase text-white">
+          <p className="font-proxima text-sm text-white md:text-base md:uppercase">
             All right reserve 2023 ©
           </p>
         </div>
