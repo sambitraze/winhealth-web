@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import { Carousel } from '@mantine/carousel';
+import TestimonialCard from '../Testimonials/TestimonialCard';
 
 const facilities = [
   {
@@ -34,26 +36,49 @@ const facilities = [
   },
 ];
 
+const FacilityCard = ({ facility }) => {
+  return (
+    <div className="flex flex-col items-center justify-start gap-2">
+      <Image
+        src={facility.icon}
+        alt={facility.name}
+        width={100}
+        height={100}
+        className="h-auto max-w-[100px]"
+      />
+      <p className="text-center font-brandon font-medium tracking-wider">
+        {facility.name}
+      </p>
+    </div>
+  );
+};
+
 const FacilitiesSection = () => {
   return (
-    <div className="container grid grid-cols-3 gap-y-6 py-10 lg:grid-cols-6">
-      {facilities.map((facility) => (
-        <div
-          key={facility.id}
-          className="flex flex-col items-center justify-center gap-2"
+    <div className="container">
+      <div className="hidden grid-cols-3 gap-y-6 py-10 md:grid lg:grid-cols-6">
+        {facilities.map((facility) => (
+          <FacilityCard key={facility.id} facility={facility} />
+        ))}
+      </div>
+      <div className="mb-8 mt-4 md:hidden">
+        <Carousel
+          slideSize="33.33333%"
+          slideGap="md"
+          withIndicators
+          align="start"
+          slidesToScroll={3}
+          withControls={false}
         >
-          <Image
-            src={facility.icon}
-            alt={facility.name}
-            width={100}
-            height={100}
-            className="h-auto max-w-[60px] md:max-w-[100px]"
-          />
-          <p className="text-center font-brandon font-medium tracking-wider">
-            {facility.name}
-          </p>
-        </div>
-      ))}
+          {facilities.map((item, index) => {
+            return (
+              <Carousel.Slide key={index}>
+                <FacilityCard facility={item} />
+              </Carousel.Slide>
+            );
+          })}
+        </Carousel>
+      </div>
     </div>
   );
 };
