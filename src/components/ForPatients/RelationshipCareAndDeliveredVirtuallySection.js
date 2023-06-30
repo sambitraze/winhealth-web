@@ -88,6 +88,7 @@ const RelationshipCareAndDeliveredVirtuallySection = () => {
             align="start"
             slidesToScroll={1}
             withControls={false}
+            loop
           >
             {facilities.map((item, index) => {
               return (

@@ -9,6 +9,7 @@ import LatestNewsSection from '../../components/ForPatients/LatestNewsSection';
 import PatientsTestimonialsSection from '../../components/ForPatients/PatientsTestimonialsSection';
 import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForPatients/DiagnosisAndTreatmentForDigestiveHealthSection';
 import RelationshipCareAndDeliveredVirtuallySection from '../../components/ForPatients/RelationshipCareAndDeliveredVirtuallySection';
+import BetterDigestiveHealthOutcomes from '../../components/ForPatients/BetterDigestiveHealthOutcomes';
 
 const ForPatients = () => {
   return (
@@ -20,6 +21,7 @@ const ForPatients = () => {
       <DiagnosisAndTreatmentForDigestiveHealthSection />
       <RelationshipCareAndDeliveredVirtuallySection />
       <WeCoordinateInPersonSection />
+      <BetterDigestiveHealthOutcomes />
       <PatientsTestimonialsSection />
       <LatestNewsSection />
     </Layout>
