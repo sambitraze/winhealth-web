@@ -61,7 +61,7 @@ const FacilitiesSection = () => {
           <FacilityCard key={facility.id} facility={facility} />
         ))}
       </div>
-      <div className="my-4 md:hidden">
+      <div className="mb-8 mt-4 md:hidden">
         <Carousel
           slideSize="33.33333%"
           slideGap="md"

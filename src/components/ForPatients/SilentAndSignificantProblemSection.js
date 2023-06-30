@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const SilentAndSignificantProblemSection = () => {
   return (
-    <div className="container py-10">
+    <div className="container py-4 md:py-10">
       <Title text={'A silent and significant problem'} />
       <Description
         text={
@@ -87,7 +87,7 @@ const SilentAndSignificantProblemSection = () => {
       <CustomLink
         text={'Understanding Prevalence'}
         link={'#'}
-        className="mx-auto mt-4 block"
+        className="mx-auto block"
       />
     </div>
   );

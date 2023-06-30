@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import FacilitiesSection from '../../components/ForPatients/FacilitiesSection';
 import RedesignedDigestiveCareSection from '../../components/ForPatients/RedesignedDigestiveCareSection';
 import SilentAndSignificantProblemSection from '../../components/ForPatients/SilentAndSignificantProblemSection';
+import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForPatients/DiagnosisAndTreatmentForDigestiveHealthSection';
 
 const ForPatients = () => {
   return (
@@ -12,6 +13,7 @@ const ForPatients = () => {
       <FacilitiesSection />
       <SilentAndSignificantProblemSection />
       <RedesignedDigestiveCareSection />
+      <DiagnosisAndTreatmentForDigestiveHealthSection />
     </Layout>
   );
 };
