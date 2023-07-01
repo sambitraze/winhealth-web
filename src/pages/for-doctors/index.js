@@ -5,6 +5,7 @@ import BecomeAPartnerSection from '../../components/ForDoctors/BecomeAPartnerSec
 import FeaturesSection from '../../components/ForDoctors/FeaturesSection';
 import OutcomesSection from '../../components/ForDoctors/OutcomesSection';
 import ConditionsWeTreatSection from '../../components/ForDoctors/ConditionsWeTreatSection';
+import MedicalAdvisorsSection from '../../components/ForDoctors/MedicalAdvisorsSection';
 
 const ForPatients = () => {
   return (
@@ -14,6 +15,7 @@ const ForPatients = () => {
       <BecomeAPartnerSection />
       <OutcomesSection />
       <ConditionsWeTreatSection />
+      <MedicalAdvisorsSection />
     </Layout>
   );
 };

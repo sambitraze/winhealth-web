@@ -79,7 +79,7 @@ const ConditionsWeTreatSection = () => {
           return <ConditionCard key={condition.id} condition={condition} />;
         })}
       </div>
-      <div className="mb-4 py-4 md:py-10">
+      <div className="mb-4 py-4 md:hidden md:py-10">
         <Carousel
           slideSize="60%"
           slideGap="xs"
