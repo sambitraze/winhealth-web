@@ -13,7 +13,7 @@ const NavItem = ({ item }) => {
       href={item.href}
       className={`${
         router.pathname === item.href ? 'underline' : 'hover:underline'
-      } max-w-fit font-medium uppercase text-white underline-offset-4 transition-all duration-300`}
+      } max-w-fit font-medium uppercase text-themeBlue underline-offset-4 transition-all duration-300`}
     >
       {item.name}
     </Link>
@@ -24,7 +24,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-themeBlue py-4 shadow-md">
+    <div className="py-4 shadow-xl">
       <div className="container flex items-center justify-between">
         <Logo />
 
@@ -38,14 +38,14 @@ const Navbar = () => {
           {!isMenuOpen ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 cursor-pointer text-white"
+              className="h-6 w-6 cursor-pointer text-themeBlue"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <path
-                className="text-white"
+                className="text-themeBlue"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
@@ -55,14 +55,14 @@ const Navbar = () => {
           ) : (
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 cursor-pointer text-white"
+              className="h-6 w-6 cursor-pointer text-themeBlue"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               <path
-                className="text-white"
+                className="text-themeBlue"
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth={2}
@@ -73,7 +73,7 @@ const Navbar = () => {
           <div>
             {isMenuOpen && (
               <div
-                className={`absolute left-0 z-20 flex w-full flex-col gap-4 bg-themeBlue p-4 py-8`}
+                className={`absolute left-0 top-24 z-20 flex w-full flex-col gap-4 bg-white p-4 py-8`}
               >
                 {NAVITEMS.map((item) => {
                   return <NavItem key={item.id} item={item} />;
