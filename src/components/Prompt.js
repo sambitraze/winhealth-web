@@ -2,8 +2,8 @@ import React from 'react';
 
 const Prompt = () => {
   return (
-    <div className="bg-white">
-      <div className="container flex items-center justify-between py-1.5">
+    <div className="bg-themeBlue">
+      <div className="container flex items-center justify-between py-1.5 text-white">
         <a
           href={'#'}
           className="text-sm underline underline-offset-2 md:text-base"
