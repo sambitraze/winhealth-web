@@ -23,11 +23,11 @@ export const FOOTER_ITEMS = [
         name: 'For Doctors',
         href: '/for-doctors',
       },
-      {
-        id: 5,
-        name: 'Our Team',
-        href: '/our-team',
-      },
+      // {
+      //   id: 5,
+      //   name: 'Our Team',
+      //   href: '/our-team',
+      // },
       {
         id: 6,
         name: 'Blog',
@@ -42,7 +42,7 @@ export const FOOTER_ITEMS = [
       {
         id: 1,
         name: 'How it works',
-        href: '/how-it-works',
+        href: '/#',
       },
       {
         id: 2,
@@ -57,7 +57,17 @@ export const FOOTER_ITEMS = [
       {
         id: 5,
         name: 'Contact Us',
-        href: '/contact-us',
+        href: '/#',
+      },
+      {
+        id: 6,
+        name: 'Privacy Policy',
+        href: '/privacy',
+      },
+      {
+        id: 7,
+        name: 'Terms & Conditions',
+        href: '/tnc',
       },
     ],
   },
