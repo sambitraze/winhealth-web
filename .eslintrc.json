@@ -19,6 +19,7 @@
   },
   "plugins": ["react", "tailwindcss"],
   "rules": {
+    "react/no-unescaped-entities": "off",
     "no-unused-vars": [0, { "args": "after-used", "argsIgnorePattern": "^_" }],
     "react/prop-types": 0
   },

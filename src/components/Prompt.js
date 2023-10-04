@@ -8,11 +8,11 @@ const Prompt = () => {
           href={'#'}
           className="text-sm underline underline-offset-2 md:text-base"
         >
-          Prompt message for marketing or offer text with clickable link
+          Launching Soon
         </a>
         <div className="hidden items-center justify-between gap-8 md:flex">
-          <a href={'tel:#'}>1-800-123-4567</a>
-          <a href={'mailto:#'}>john@gmail.com</a>
+          <a href={'tel:#'}>+91 73761 13646</a>
+          <a href={'mailto:#'}>shashank12winger@gmail.com</a>
           <a href="#" className="underline underline-offset-2">
             Contact Us
           </a>
