@@ -78,7 +78,7 @@ const ConditionWeTreatedSection = () => {
         <Title text={'Condition we treat -FGID '} className="text-white" />
         <Description
           text={
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi.'
+            ''
           }
           className="text-white"
         />

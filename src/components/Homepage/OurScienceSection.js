@@ -10,7 +10,7 @@ const OurScienceSection = () => {
         <Title text={'Our Science'} />
         <Description
           text={
-            ' We believe your gut’s health is connected to the brain, behaviour and a lot more. To restore balance and improve the chronic symptoms. We have developed a framework to address each part of the whole.'
+            'Approx. 70% immune system is ruled by gut. Gut issues form the root cause of several other chronic diseases like eczema, Type 2 diabetes, and cancer. Thus it becomes crucial to identify the problem at the root level. We believe that to take care of your gut, you need to be mindful of your physical and mental health. An integrative and balanced approach is essential for you to reach your and your gut’s full potential, and we are your trusted partners in helping you achieve this goal.'
           }
         />
         <Image

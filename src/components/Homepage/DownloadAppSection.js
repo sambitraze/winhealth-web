@@ -17,17 +17,17 @@ const DownloadAppSection = () => {
         />
         <div className="flex max-w-md flex-col justify-center gap-2 md:gap-4">
           <Title
-            text={'heal O gut : comprehensive care on the go'}
+            text={'heal O gut : Your Compassionate Companion for Holistic Wellness Journey features'}
             type={'herosection'}
             className={'text-left'}
           />
           <Description
             text={
-              'hOg was created to bring balance in your gut microbiome via Mind+Nutrition over Medicine.'
+              'Think Beyond Pills & Supplements, Heal O Gut was created to offer evidence based Digital Therapeutic (DTx) for gut disorder and health management at the convenience of easy access. We believe that gut-care should not be limited to popping pills & supplements (pre-probiotics) every day, and hence, we offer a range of proven behavioural science and sustainable nutrition treatments to aid your gut and improve your quality of life.'
             }
             className={'text-left text-sm text-themeMediumGrey md:text-base'}
           />
-          <ul className="list-disc pl-6 font-proxima text-sm text-themeMediumGrey md:text-base">
+          {/* <ul className="list-disc pl-6 font-proxima text-sm text-themeMediumGrey md:text-base">
             <li>
               <span className="text-themeGrey">Mind</span> - Mental well-being.
             </li>
@@ -38,7 +38,7 @@ const DownloadAppSection = () => {
               <span className="text-themeGrey">Gut care</span> - Mind-Nutrition
               balance.
             </li>
-          </ul>
+          </ul> */}
           <CustomLink
             text={'Discover how it works'}
             link={'#'}

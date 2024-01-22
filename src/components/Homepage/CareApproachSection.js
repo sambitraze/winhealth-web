@@ -10,7 +10,7 @@ const OurScienceSection = () => {
         <Title text={'A comprehensive and integrative care approach '} />
         <Description
           text={
-            'Because digestive health is interconnected via gut brain axis.'
+            'Comprehensive care team n features.'
           }
         />
         <Image

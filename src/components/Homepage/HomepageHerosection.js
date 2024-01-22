@@ -33,12 +33,12 @@ const HomepageHerosection = () => {
       <div className="container z-10 py-4 md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
         <div className="flex max-w-md flex-col gap-4">
           <Title
-            text={'Unlock the power of the mind (DTx) in healthcare.'}
+            text={'It takes Gut to get Healthy- Say goodbye to all your Gut issues- Gut Set Go'}
             type={'herosection'}
           />
           <Description
             text={
-              'Try a different approach to Gastro (GI) care with comprehensive and personalized support via DTx ( Digital Therapeutic, an Integrative psychological therapies), Nutrition and lifestyle. Manage gut chronic issues and your life.'
+              'Begin Your Journey of Digestive Wellbeing with Our Cutting-Edge, Science-Backed Gut Care program delivered by functional gut team expertise in  behavioural science, gut health-based nutrition & lifestyle. We offer evidence based virtual, high-quality care at your fingertips, for you to improve and better manage your gut health.'
             }
             type={'herosection'}
           />
