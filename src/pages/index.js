@@ -6,13 +6,15 @@ import OurScienceSection from '../components/Homepage/OurScienceSection';
 import CareApproachSection from '../components/Homepage/CareApproachSection';
 import DownloadAppSection from '../components/Homepage/DownloadAppSection';
 import ConditionWeTreatedSection from '../components/Homepage/ConditionWeTreatedSection';
+import CoreMission from '../components/Homepage/CoreMission';
 
 export default function Home() {
   return (
-    <Layout>
+    <Layout> 
       <HomepageHerosection />
-      <ConditionWeTreatedSection />
+      <CoreMission />
       <DownloadAppSection />
+      <ConditionWeTreatedSection />
       <CareApproachSection />
       <OurScienceSection />
       <OurTrustedExpertsSection />

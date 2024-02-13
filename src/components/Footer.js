@@ -23,6 +23,12 @@ const Footer = () => {
             </div>
             <div className="hidden flex-col gap-2 md:flex md:gap-4">
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
+                Address
+              </p>
+              <p className='tracking-wide text-white'>
+                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21 LIVING BUNGALOW NO.18 DIVINE ROAD, SCIENCE CITY AHMEDABAD Ahmedabad GJ 380060 IN
+              </p>
+              <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us
               </p>
               <div className="flex items-center gap-2 md:gap-4">

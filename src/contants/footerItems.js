@@ -8,11 +8,11 @@ export const FOOTER_ITEMS = [
         name: 'Home',
         href: '/',
       },
-      {
-        id: 2,
-        name: 'Price',
-        href: '/pricing',
-      },
+      // {
+      //   id: 2,
+      //   name: 'Price',
+      //   href: '/pricing',
+      // },
       {
         id: 3,
         name: 'For Patients',

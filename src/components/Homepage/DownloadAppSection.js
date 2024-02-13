@@ -17,13 +17,13 @@ const DownloadAppSection = () => {
         />
         <div className="flex max-w-md flex-col justify-center gap-2 md:gap-4">
           <Title
-            text={'heal O gut : Your Compassionate Companion for Holistic Wellness Journey features'}
+            text={`heal O gut : India's First Gut Health App`}
             type={'herosection'}
             className={'text-left'}
           />
           <Description
             text={
-              'Think Beyond Pills & Supplements, Heal O Gut was created to offer evidence based Digital Therapeutic (DTx) for gut disorder and health management at the convenience of easy access. We believe that gut-care should not be limited to popping pills & supplements (pre-probiotics) every day, and hence, we offer a range of proven behavioural science and sustainable nutrition treatments to aid your gut and improve your quality of life.'
+              'Heal O Gut offers a clinically validated protocol combining behavioral and nutritional therapy to effectively treat chronic conditions. Our app provides personalized solutions for improved health outcomes, revolutionizing chronic condition management with a scientifically proven approach.'
             }
             className={'text-left text-sm text-themeMediumGrey md:text-base'}
           />
@@ -59,7 +59,7 @@ const DownloadAppSection = () => {
                   className="h-auto max-w-[120px] md:max-w-[150px]"
                 />
               </a>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.winhealth.healogut">
                 <Image
                   src={'/assets/play-store.png'}
                   alt={'App Store'}
