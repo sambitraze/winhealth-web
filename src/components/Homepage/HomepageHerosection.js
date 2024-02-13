@@ -33,12 +33,12 @@ const HomepageHerosection = () => {
       <div className="container z-10 py-4 md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
         <div className="flex max-w-md flex-col gap-4">
           <Title
-            text={'It takes Gut to get Healthy- Say goodbye to all your Gut issues- Gut Set Go'}
+            text={'Transforming Healthcare through Digital Innovation'}
             type={'herosection'}
           />
           <Description
             text={
-              'Begin Your Journey of Digestive Wellbeing with Our Cutting-Edge, Science-Backed Gut Care program delivered by functional gut team expertise in  behavioural science, gut health-based nutrition & lifestyle. We offer evidence based virtual, high-quality care at your fingertips, for you to improve and better manage your gut health.'
+              'At Winhealth.Care, our mission is to transform healthcare through innovative digital solutions that empower individuals, enhance accessibility, and improve overall wellness. '
             }
             type={'herosection'}
           />

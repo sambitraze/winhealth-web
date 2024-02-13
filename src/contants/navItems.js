@@ -3,11 +3,11 @@ export const NAVITEMS = [
     id: 1,
     name: 'Home',
     href: '/',
-  },
+  },  
   {
     id: 2,
-    name: 'Price',
-    href: '/pricing',
+    name: 'For Provider',
+    href: '/for-provider',
   },
   {
     id: 3,
@@ -16,21 +16,16 @@ export const NAVITEMS = [
   },
   {
     id: 4,
-    name: 'For Doctors',
-    href: '/for-doctors',
-  },
-  {
-    id: 5,
     name: 'FAQ',
     href: '/faq',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Blog',
     href: '/blogs',
   },
   {
-    id: 7,
+    id: 6,
     name: 'About Us',
     href: '/about-us',
   },

@@ -15,9 +15,13 @@ const Logo = () => {
         height={50}
         className="h-auto w-[80px] cursor-pointer object-contain md:w-[100px]"
       />
-      <p className="font-brandon text-lg text-themeBlue md:text-2xl">
-        Win Health
-      </p>
+      <Image
+        src={'/assets/logo2.svg'}
+        alt="Logo"
+        width={1000}
+        height={80}
+        className="h-auto w-[80px] cursor-pointer object-contain md:w-[200px]"
+      />
     </Link>
   );
 };
