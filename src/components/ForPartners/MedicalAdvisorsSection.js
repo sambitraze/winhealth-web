@@ -5,7 +5,7 @@ import Description from '../Description';
 
 const MedicalAdvisorsSection = () => {
   return (
-    <div className="bg-themeWhite">
+    <div className="bg-white">
       <div className="container py-4 md:py-10">
         <Title text="Medical Advisors" />
         <Description
@@ -18,7 +18,7 @@ const MedicalAdvisorsSection = () => {
         <div className="mx-auto grid max-w-screen-md gap-4 md:grid-cols-2">
           <div className="flex flex-col items-center gap-4 text-center">
             <Image
-              src={'/assets/profile-1.png'}
+              src={'/assets/sindhu.png'}
               alt={'profile-1'}
               width={200}
               height={200}
@@ -26,17 +26,17 @@ const MedicalAdvisorsSection = () => {
             />
             <div>
               <p className="font-brandon text-lg font-semibold text-themeGrey md:text-xl">
-                Dr. John Doe
+                Dr. Sindhu Sundar
               </p>
-              <p className="text-center font-proxima text-sm md:text-base md:font-medium">
+              {/* <p className="text-center font-proxima text-sm md:text-base md:font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse venenatis gravida est, in porttitor orci{' '}
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
             <Image
-              src={'/assets/profile-2.png'}
+              src={'/assets/vaishnavi.png'}
               alt={'profile-1'}
               width={200}
               height={200}
@@ -44,12 +44,12 @@ const MedicalAdvisorsSection = () => {
             />
             <div>
               <p className="font-brandon text-lg font-semibold text-themeGrey md:text-xl">
-                Dr. John Doe
+                Dr. Vaishnavi Ponugoti
               </p>
-              <p className="text-center font-proxima text-sm md:text-base md:font-medium">
+              {/* <p className="text-center font-proxima text-sm md:text-base md:font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse venenatis gravida est, in porttitor orci{' '}
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

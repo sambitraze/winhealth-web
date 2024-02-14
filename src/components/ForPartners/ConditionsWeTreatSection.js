@@ -46,7 +46,7 @@ const conditions = [
 
 const ConditionCard = ({ condition }) => {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
       <Image
         src={condition.image}
         alt={condition.image}
@@ -72,33 +72,34 @@ const ConditionCard = ({ condition }) => {
 
 const ConditionsWeTreatSection = () => {
   return (
-    <div className="container py-4 md:py-10">
-      <Title text="Conditions We Treat" />
-      <div className="hidden gap-4 py-4 md:grid md:grid-cols-3 md:py-10">
-        {conditions.map((condition) => {
-          return <ConditionCard key={condition.id} condition={condition} />;
-        })}
-      </div>
-      <div className="mb-4 py-4 md:hidden md:py-10">
-        <Carousel
-          slideSize="60%"
-          slideGap="xs"
-          withIndicators
-          align="center"
-          slidesToScroll={1}
-          withControls={false}
-          loop
-        >
+    <div className='bg-themeWhite'>
+      <div className="container py-4 md:py-10">
+        <Title text="Conditions We Treat" />
+        <div className="hidden gap-4 py-4 md:grid md:grid-cols-3 md:py-10">
           {conditions.map((condition) => {
-            return (
-              <Carousel.Slide key={condition.id}>
-                <ConditionCard condition={condition} />
-              </Carousel.Slide>
-            );
+            return <ConditionCard key={condition.id} condition={condition} />;
           })}
-        </Carousel>
-      </div>
-    </div>
+        </div>
+        <div className="mb-4 py-4 md:hidden md:py-10">
+          <Carousel
+            slideSize="60%"
+            slideGap="xs"
+            withIndicators
+            align="center"
+            slidesToScroll={1}
+            withControls={false}
+            loop
+          >
+            {conditions.map((condition) => {
+              return (
+                <Carousel.Slide key={condition.id}>
+                  <ConditionCard condition={condition} />
+                </Carousel.Slide>
+              );
+            })}
+          </Carousel>
+        </div>
+      </div></div>
   );
 };
 

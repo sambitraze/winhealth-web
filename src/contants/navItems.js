@@ -11,8 +11,8 @@ export const NAVITEMS = [
   },
   {
     id: 3,
-    name: 'For Patients',
-    href: '/for-patients',
+    name: 'For Partner ',
+    href: '/for-partner',
   },
   {
     id: 4,
