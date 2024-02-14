@@ -9,15 +9,14 @@ const PatientsTestimonialCard = ({
   isImageToTheLeft = true,
 }) => {
   return (
-    <div className="grid gap-4 overflow-x-scroll md:grid-cols-6">
+    <div className="grid gap-4 md:grid-cols-6">
       <Image
         src={image}
         alt={name}
         width={150}
         height={150}
-        className={`mx-auto h-auto object-contain lg:max-w-[150px] ${
-          isImageToTheLeft ? 'order-first' : 'md:order-last'
-        }`}
+        className={`mx-auto h-auto object-contain lg:max-w-[150px] ${isImageToTheLeft ? 'order-first' : 'md:order-last'
+          }`}
       />
       <div className="flex flex-col justify-center text-center md:col-span-5 md:text-left">
         <h3 className="text-lg font-bold text-themeGrey md:text-2xl">
@@ -33,7 +32,7 @@ const PatientsTestimonialCard = ({
 
 const PatientsTestimonialsSection = () => {
   return (
-    <div className="mx-auto max-w-screen-lg p-4 md:py-10">
+    <div className='bg-themeWhite'><div className="mx-auto max-w-screen-lg p-4 md:py-10">
       <div className="flex flex-col gap-4">
         <PatientsTestimonialCard
           name="Felix"
@@ -54,7 +53,7 @@ const PatientsTestimonialsSection = () => {
           isImageToTheLeft={false}
         />
       </div>
-    </div>
+    </div></div>
   );
 };
 

@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge';
 const Description = ({ text, className, type }) => {
   if (type === 'herosection') {
     return (
-      <p className={twMerge(`font-proxima text-themeMediumGrey`, className)}>
+      <p className={twMerge(`text-themeMediumGrey`, className)}>
         {text}
       </p>
     );
@@ -12,7 +12,7 @@ const Description = ({ text, className, type }) => {
   return (
     <p
       className={twMerge(
-        `mx-auto max-w-3xl text-center font-proxima text-sm text-themeGrey md:text-base`,
+        `mx-auto max-w-3xl text-center text-sm text-themeGrey md:text-lg`,
         className
       )}
     >

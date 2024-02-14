@@ -10,13 +10,20 @@ import AboutUsHeroSection from '../../components/AboutUs/AboutUsHeroSection';
 const AboutUs = () => {
   return (
     <Layout>
-      <AboutUsHeroSection />
+      {/* <AboutUsHeroSection />
       <VisionMissionSection />
       <OurFoundersSection />
       <FoundersMessageSection />
       <OurTeamSection />
       <OurInvestorsSection />
-      <OurValuesSection />
+      <OurValuesSection /> */}
+      <div className='pt-10 text-center'>
+        <a
+          href={'#'}
+          className="text-xl "
+        >
+          Comming Soon
+        </a></div>
     </Layout>
   );
 };

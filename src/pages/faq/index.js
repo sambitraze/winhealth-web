@@ -6,8 +6,15 @@ import QnASection from '../../components/FAQ/QnASection';
 const FAQ = () => {
   return (
     <Layout>
-      <FAQHerosection />
-      <QnASection />
+      {/* <FAQHerosection />
+      <QnASection /> */}
+      <div className='pt-10 text-center'>
+        <a
+          href={'#'}
+          className="text-xl "
+        >
+          Comming Soon
+        </a></div>
     </Layout>
   );
 };

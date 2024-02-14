@@ -1,16 +1,12 @@
 import React from 'react';
-import ForPatientsHerosection from '../../components/ForPatients/ForPatientsHerosection';
+import ForPatientsHerosection from '../../components/ForProviders/ForPatientsHerosection';
 import Layout from '../../components/Layout';
-import FacilitiesSection from '../../components/ForPatients/FacilitiesSection';
-import RedesignedDigestiveCareSection from '../../components/ForPatients/RedesignedDigestiveCareSection';
-import SilentAndSignificantProblemSection from '../../components/ForPatients/SilentAndSignificantProblemSection';
-import WeCoordinateInPersonSection from '../../components/ForPatients/WeCoordinateInPersonSection';
-import LatestNewsSection from '../../components/ForPatients/LatestNewsSection';
-import PatientsTestimonialsSection from '../../components/ForPatients/PatientsTestimonialsSection';
-import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForPatients/DiagnosisAndTreatmentForDigestiveHealthSection';
-import RelationshipCareAndDeliveredVirtuallySection from '../../components/ForPatients/RelationshipCareAndDeliveredVirtuallySection';
-import BetterDigestiveHealthOutcomes from '../../components/ForPatients/BetterDigestiveHealthOutcomes';
-import IntegratedWithHealthBenefitSection from '../../components/ForPatients/IntegratedWithHealthBenefitSection';
+import FacilitiesSection from '../../components/ForProviders/FacilitiesSection';
+import RedesignedDigestiveCareSection from '../../components/ForProviders/RedesignedDigestiveCareSection';
+import SilentAndSignificantProblemSection from '../../components/ForProviders/SilentAndSignificantProblemSection';
+import PatientsTestimonialsSection from '../../components/ForProviders/PatientsTestimonialsSection';
+import DiagnosisAndTreatmentForDigestiveHealthSection from '../../components/ForProviders/DiagnosisAndTreatmentForDigestiveHealthSection';
+import BenifitsOfPartnering from '../../components/ForProviders/BenifitsOfPartnering';
 
 const ForPatients = () => {
   return (
@@ -20,12 +16,12 @@ const ForPatients = () => {
       <SilentAndSignificantProblemSection />
       <RedesignedDigestiveCareSection />
       <DiagnosisAndTreatmentForDigestiveHealthSection />
-      <RelationshipCareAndDeliveredVirtuallySection />
-      <WeCoordinateInPersonSection />
-      <BetterDigestiveHealthOutcomes />
-      <IntegratedWithHealthBenefitSection />
-      <PatientsTestimonialsSection />
-      <LatestNewsSection />
+      <BenifitsOfPartnering />
+      {/* <WeCoordinateInPersonSection /> */}
+      {/* <BetterDigestiveHealthOutcomes /> */}
+      {/* <IntegratedWithHealthBenefitSection /> */}
+      {/* <PatientsTestimonialsSection /> */}
+      {/* <LatestNewsSection /> */}
     </Layout>
   );
 };

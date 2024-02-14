@@ -8,10 +8,17 @@ import OurAchievementsSection from '../../components/Blogs/OurAchievementsSectio
 const Index = () => {
   return (
     <Layout>
-      <BlogsHerosection />
+      {/* <BlogsHerosection />
       <LatestBlogsSection />
       <OurAchievementsSection />
-      <InThePressSection />
+      <InThePressSection /> */}
+      <div className='pt-10 text-center'>
+        <a
+          href={'#'}
+          className="text-xl "
+        >
+          Comming Soon
+        </a></div>
     </Layout>
   );
 };
