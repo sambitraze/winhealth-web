@@ -69,6 +69,11 @@ export const FOOTER_ITEMS = [
         name: 'Terms & Conditions',
         href: '/tnc',
       },
+      {
+        id:8,
+        name: 'Cancellation & Refund Policy',
+        href: '/cancellation-policy'
+      }
     ],
   },
 ];
