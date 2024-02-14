@@ -7,6 +7,7 @@ import CareApproachSection from '../components/Homepage/CareApproachSection';
 import DownloadAppSection from '../components/Homepage/DownloadAppSection';
 import ConditionWeTreatedSection from '../components/Homepage/ConditionWeTreatedSection';
 import CoreMission from '../components/Homepage/CoreMission';
+import WhyGutHealth from '../components/Homepage/WhyGutHealth';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HomepageHerosection />
       <CoreMission />
       <DownloadAppSection />
+      <WhyGutHealth />
       <ConditionWeTreatedSection />
       <CareApproachSection />
       <OurScienceSection />

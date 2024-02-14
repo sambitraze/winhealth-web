@@ -22,7 +22,7 @@ const OurTrustedExpertsSection = () => {
           />
           <Description
             text={
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi. Donec id elementum urna. Aenean et est odio. Nunc nunc neque, venenatis fringilla nunc.'
+              `In today's digital era, where convenience meets technology, we proudly introduce our latest innovation – an app designed with you in mind. At the core of our application, we believe in not just offering a service but providing a solution that comes with the assurance of quality, reliability, and unparalleled expertise. "Our Trusted Experts At Your Care" isn't just a motto; it's the foundation upon which our app is built.`
             }
             className={
               'text-center text-sm text-white md:text-left md:text-base'

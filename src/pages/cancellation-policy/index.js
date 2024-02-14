@@ -13,8 +13,7 @@ const CanellationPolicy = () => {
           • Cancellations will be considered only if the request is made immediately after placing the order.
           However, the cancellation request may not be entertained if the orders have been communicated to the
           vendors/merchants and they have initiated the process of shipping them.
-          • MICROHEAL WELLNESS PRIVATE LIMITED does not accept cancellation requests for perishable
-          items like flowers, eatables etc. However, refund/replacement can be made if the customer establishes
+          • MICROHEAL WELLNESS PRIVATE LIMITED does not accept cancellation requests. However, refund/replacement can be made if the customer establishes
           that the quality of product delivered is not good.
           • In case of receipt of damaged or defective items please report the same to our Customer Service team.
           The request will, however, be entertained once the merchant has checked and determined the same at his
