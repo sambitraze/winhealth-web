@@ -15,13 +15,13 @@ export const FOOTER_ITEMS = [
       // },
       {
         id: 3,
-        name: 'For Patients',
-        href: '/for-patients',
+        name: 'For Partners',
+        href: '/for-partner',
       },
       {
         id: 4,
-        name: 'For Doctors',
-        href: '/for-doctors',
+        name: 'For Providers',
+        href: '/for-provider',
       },
       // {
       //   id: 5,
