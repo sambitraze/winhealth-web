@@ -15,7 +15,14 @@ const WhyGutHealth = () => {
                 alt={'Homepage Background'}
                 width={1920}
                 height={1080}
-                className={'h-full w-full object-cover lg:block'}
+                className={'h-full w-full object-cover object-center hidden md:object-scale-down lg:block md:block sm:block'}
+            />
+            <Image
+                src={'/assets/core-mission.png'}
+                alt={'Homepage Background'}
+                width={1920}
+                height={1080}
+                className={'h-full w-full object-cover object-center sm:hidden md:object-scale-down'}
             />
         </div>
     );

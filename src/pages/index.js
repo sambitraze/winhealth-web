@@ -19,7 +19,7 @@ export default function Home() {
       <ConditionWeTreatedSection />
       <CareApproachSection />
       <OurScienceSection />
-      <OurTrustedExpertsSection />
+      {/* <OurTrustedExpertsSection /> */}
       <TestimonialSection />
     </Layout>
   );

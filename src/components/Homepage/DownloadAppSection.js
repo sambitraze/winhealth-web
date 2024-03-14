@@ -9,11 +9,11 @@ const DownloadAppSection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-10 py-10 sm:grid-cols-2">
         <Image
-          src={'/assets/app-thumbnail.png'}
+          src={'/assets/app-thumbnail.svg'}
           alt={'App Image'}
           width={500}
-          height={900}
-          className="order-2 max-h-[900px] px-10 md:order-none"
+          height={1000}
+          className="order-2 max-h-[1000px] px-10 md:order-none"
         />
         <div className="flex max-w-md flex-col justify-center gap-2 md:gap-4">
           <Title

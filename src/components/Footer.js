@@ -63,7 +63,7 @@ const Footer = () => {
                   className="h-auto max-w-[120px]"
                 />
               </a>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.winhealth.healogut">
                 <Image
                   src={'/assets/play-store.png'}
                   alt={'App Store'}

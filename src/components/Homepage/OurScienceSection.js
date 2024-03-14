@@ -10,7 +10,7 @@ const OurScienceSection = () => {
         <Title text={'Our Science'} />
         <Description
           text={
-            'Approx. 70% immune system is ruled by gut. Gut issues form the root cause of several other chronic diseases like eczema, Type 2 diabetes, and cancer. Thus it becomes crucial to identify the problem at the root level. We believe that to take care of your gut, you need to be mindful of your physical and mental health. An integrative and balanced approach is essential for you to reach your and your gut’s full potential, and we are your trusted partners in helping you achieve this goal.'
+            'Did you know? Your gut health affects 70% of your immune system and is linked to chronic diseases like eczema, Type 2 diabetes, and cancer. Identifying and addressing gut issues is crucial. We believe in a balanced approach to gut health, integrating physical and mental well-being. Trust us to help you achieve your full potential, personally and for your gut health.'
           }
         />
         <Image

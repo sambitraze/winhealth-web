@@ -25,7 +25,7 @@ const TestimonialSection = () => {
   return (
     <div className="bg-themeWhite py-7 md:py-14">
       <div className="container">
-        <Title text={'We earned lifetime full of trust'} />
+        <Title text={'We have earned a Lifetime of trust'} />
         <Description
           text={
             ''
