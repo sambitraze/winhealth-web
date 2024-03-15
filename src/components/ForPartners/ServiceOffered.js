@@ -12,33 +12,33 @@ const services = [
     },
     {
         id: 2,
-        name: 'Holistic Mind-Gut Care',
+        name: 'Dynamic Dashboard for Symptoms Tracking',
         image: '/assets/services/service2.svg',
-        description: 'Comprehensive care that addresses the interconnectedness of mental health and gut health for overall well-being.'
+        description: 'A user-friendly dashboard to monitor and record symptoms of GI disorders for effective management.'
     },
     {
         id: 3,
-        name: 'Holistic Mind-Gut Care',
+        name: 'Personalized Diet and Exercise Plans',
         image: '/assets/services/service3.svg',
-        description: 'Comprehensive care that addresses the interconnectedness of mental health and gut health for overall well-being.'
+        description: 'Customized diet and exercise plans tailored to individual needs and health goals.'
     },
     {
         id: 4,
-        name: 'Holistic Mind-Gut Care',
+        name: '24x7 Care Manager Availability',
         image: '/assets/services/service4.svg',
-        description: 'Comprehensive care that addresses the interconnectedness of mental health and gut health for overall well-being.'
+        description: 'Access to a dedicated care manager round the clock for support and guidance.'
     },
     {
         id: 5,
-        name: 'Holistic Mind-Gut Care',
+        name: 'Specialized GI Care',
         image: '/assets/services/service5.svg',
-        description: 'Comprehensive care that addresses the interconnectedness of mental health and gut health for overall well-being.'
+        description: 'Expert care focused on the diagnosis and treatment of gastrointestinal disorders.'
     },
     {
         id: 6,
-        name: 'Holistic Mind-Gut Care',
+        name: 'Health Coaching',
         image: '/assets/services/service6.svg',
-        description: 'Comprehensive care that addresses the interconnectedness of mental health and gut health for overall well-being.'
+        description: 'Guidance and support to adopt healthy lifestyle changes for improved gut health and overall wellness.'
     },
 ];
 
