@@ -18,15 +18,9 @@ const OurScienceSection = () => {
           alt={'Our Experts'}
           width={1200}
           height={600}
-          className="relative mx-auto mt-4 hidden h-auto object-contain md:block xl:max-w-screen-lg xl:translate-x-10"
+          className="relative mx-auto mt-4 h-auto object-contain md:block xl:max-w-screen-lg xl:translate-x-10"
         />
-        {/* <Image
-          src={'/assets/team-sm.svg'}
-          alt={'Our Team'}
-          width={600}
-          height={600}
-          className="mx-auto mt-4 h-auto object-contain md:hidden"
-        /> */}
+        
       </div>
     </div>
   );
