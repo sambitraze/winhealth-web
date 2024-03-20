@@ -50,7 +50,7 @@ const DownloadAppSection = () => {
               Download Now
             </p>
             <div className="flex items-center gap-4">
-              <a href="#">
+              <a href="https://apps.apple.com/app/healogut/id6468660817">
                 <Image
                   src={'/assets/app-store.png'}
                   alt={'App Store'}
