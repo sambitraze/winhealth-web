@@ -15,7 +15,7 @@ const MedicalAdvisorsSection = () => {
             type={'herosection'}
             className="text-center"
           />
-        <div className="mx-auto grid max-w-screen-md gap-4 md:grid-cols-2">
+        {/* <div className="mx-auto grid max-w-screen-md gap-4 md:grid-cols-2">
           <div className="flex flex-col items-center gap-4 text-center">
             <Image
               src={'/assets/sindhu.png'}
@@ -28,10 +28,6 @@ const MedicalAdvisorsSection = () => {
               <p className="font-brandon text-lg font-semibold text-themeGrey md:text-xl">
                 Dr. Sindhu Sundar
               </p>
-              {/* <p className="text-center font-proxima text-sm md:text-base md:font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse venenatis gravida est, in porttitor orci{' '}
-              </p> */}
             </div>
           </div>
           <div className="flex flex-col items-center gap-4 text-center">
@@ -46,13 +42,9 @@ const MedicalAdvisorsSection = () => {
               <p className="font-brandon text-lg font-semibold text-themeGrey md:text-xl">
                 Dr. Vaishnavi Ponugoti
               </p>
-              {/* <p className="text-center font-proxima text-sm md:text-base md:font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse venenatis gravida est, in porttitor orci{' '}
-              </p> */}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
