@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics } from "nextjs-google-analytics";
 
 export default function Document() {
   return (
