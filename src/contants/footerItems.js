@@ -39,11 +39,11 @@ export const FOOTER_ITEMS = [
     id: 2,
     section: 'Information',
     links: [
-      {
-        id: 1,
-        name: 'How it works',
-        href: '/#',
-      },
+      // {
+      //   id: 1,
+      //   name: 'How it works',
+      //   href: '/#',
+      // },
       {
         id: 2,
         name: 'About Us',
@@ -57,7 +57,7 @@ export const FOOTER_ITEMS = [
       {
         id: 5,
         name: 'Contact Us',
-        href: '/#',
+        href: '/contact-us',
       },
       {
         id: 6,
@@ -80,36 +80,18 @@ export const FOOTER_ITEMS = [
 
 export const SOCIAL_ITEMS = [
   {
-    id: 3,
-    name: 'Instagram',
-    href: '#',
-    image: {
-      src: '/assets/instagram.svg',
-      alt: 'instagram',
-    },
-  },
-  {
     id: 1,
-    name: 'Facebook',
-    href: '#',
+    name: 'Medium',
+    href: 'https://medium.com/@whealth1234',
     image: {
-      src: '/assets/facebook.svg',
-      alt: 'facebook',
-    },
-  },
-  {
-    id: 2,
-    name: 'Twitter',
-    href: '#',
-    image: {
-      src: '/assets/twitter.svg',
+      src: '/assets/medium-logo.png',
       alt: 'twitter',
     },
   },
   {
-    id: 4,
+    id: 2,
     name: 'Linkedin',
-    href: '#',
+    href: 'https://www.linkedin.com/company/win-health',
     image: {
       src: '/assets/linkedin.svg',
       alt: 'linkedin',

@@ -16,7 +16,7 @@ const BlogsHerosection = () => {
           />
           <Description
             text={
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi. Donec id elementum urna. Aenean et est odio. Nunc nunc neque, venenatis fringilla nunc.'
+              `Welcome to our blog section where we bring you the latest updates and in-depth articles to keep you informed and inspired. Whether you're looking for practical advice, industry news, or personal growth tips, we've got something for everyone.`
             }
             type={'herosection'}
           />

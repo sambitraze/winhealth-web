@@ -4,62 +4,109 @@ import FAQItem from './FAQItem';
 const sections = [
   {
     id: 1,
-    label: 'Membership and Legal',
-    value: 'membership-and-legal',
+    label: 'About the App',
+    value: 'about-the-app',
     questions: [
       {
         id: 1,
-        question: 'What does the sign-up process look like?',
+        question: 'What is Winhealth.Care?',
         answer:
-          'It all starts with an in-depth assessment of your symptoms, health and goals. Based on this, we create a personalized care plan. You choose the package that’s right for you, and instantly get access to your gut health plan, your multidisciplinary care team, and other resources that will support your gut health journey.',
+          ' Winhealth.Care is a digital therapeutics (DTx) company specializing in innovative solutions for managing gut health, focusing on treatment of Functional Gastrointestinal Disorders (FGID) such as Irritable Bowel Syndrome (IBS), Functional Dyspepsia etc.',
       },
       {
         id: 2,
-        question: 'What will I get when I sign up for Bold?',
+        question: `How does Winhealth.Care's DTx app - healOgut, work?`,
         answer:
-          'When you sign up for Bold you get access to a multidisciplinary care team, including a gastroenterologist, care guide, dietitian, and GI specialized psychologist. You will also have access to our digital therapeutics to help co-manage your digestive condition. For convenience, you can access Bold and communicate with your care team through our web platform or mobile app.',
+          'Our app combines evidence-based protocols, including behavioral science, with personalized diet and exercise plans to manage gut health effectively.',
       },
       {
         id: 3,
-        question: 'How do you decide what is the right care path for me?',
+        question: 'What is Behavioral Science?',
         answer:
-          'We ask you to take an initial onboarding assessment where we learn about you as a whole using the bio-psychosocial model of care. We evaluate your symptoms, medical history, prior treatments, procedures, and dietary modifications, stress levels, mood, work productivity, and overall wellness in order to determine the best way to manage your gut health',
+          'Behavioral Science at Winhealth.Care encompasses a range of evidence-based practices, including cognitive behavioral therapy, mindfulness, and gut-directed hypnosis. Our experienced healthcare professionals utilize these approaches to provide quality care, focusing on achieving long-lasting effects of treatment for our users.',
       },
       {
         id: 4,
-        question: 'Is Bold the right solution for me?',
+        question: 'Can I use healOgut alongside other treatments?',
         answer:
-          'If you are serious about taking better control of your gut health, and are able to engage with your care team via app or the web, Bold can help! If you sign up for Bold and after initial evaluation we find that your condition would be best managed with traditional GI care, we can assist you in finding a high-quality clinician in your area to take the next steps.',
+          'Our app is designed to complement existing treatments for gut health. However, we recommend consulting with a healthcare professional before starting any new treatment regimen.',
       },
     ],
   },
   {
     id: 2,
-    label: 'Billing',
-    value: 'billing',
+    label: 'Enrollment and Billing',
+    value: 'enrollment-and-billing',
     questions: [
       {
         id: 1,
-        question: 'How much does Bold cost?',
+        question: 'How do I sign up for healOgut app?',
         answer:
-          'Bold offers a variety of packages to meet your needs. We offer monthly and annual plans, as well as a one-time consultation. Please visit our pricing page for more information.',
+          'You can sign up by downloading the healOgut app from the App Store or Google Play Store and following the on-screen instructions to create an account.',
+      },
+      {
+        id: 2,
+        question: 'What payment methods does Winhealth.Care accept for billing?',
+        answer:
+          'We accept major credit cards and UPI for billing purposes.',
+      },
+      {
+        id: 3,
+        question: 'Is there a subscription fee for using the healOgut app?',
+        answer:
+          'Yes, there is a subscription fee to access the full range of features and services within the app. Details about subscription plans can be found within the app.',
       },
     ],
   },
   {
     id: 3,
-    label: 'Doctors and Health Coaches',
-    value: 'doctors-and-health-coaches',
+    label: 'Healthcare Providers',
+    value: 'healthcare-providers',
+    questions: [
+      {
+        id: 1,
+        question: 'What qualifications do the care providers at Winhealth.Care have?',
+        answer:
+          'Our care providers are highly qualified professionals with expertise in fields such as gastroenterology, nutrition, psychology, and behavioral science. They undergo rigorous training to ensure they provide the best possible care to our users.',
+      },
+      {
+        id: 2,
+        question: 'How are care providers assigned to users at Winhealth.Care?',
+        answer:
+          'Care providers are assigned based on the specific needs and preferences of each user. We take into account factors such as the type and severity of the condition, as well as any personal preferences the user may have.',
+      },
+    ],
   },
   {
     id: 4,
     label: 'Virtual Care',
     value: 'virtual-care',
-  },
-  {
-    id: 5,
-    label: 'Conditions and Treatments',
-    value: 'conditions-and-treatments',
+    questions: [
+      {
+        id: 1,
+        question: 'How does Winhealth.Care ensure the privacy and security of my data?',
+        answer:
+          'Winhealth.Care takes data privacy and security seriously. We use industry-standard encryption and security protocols to protect your data from unauthorized access. Our care providers also undergo training on patient confidentiality and data security to ensure they handle sensitive information responsibly and ethically.',
+      },
+      {
+        id: 2,
+        question: 'What information does Winhealth.Care collect from users and how is it used?',
+        answer:
+          'Winhealth.Care collects information such as personal health data, demographic information, and usage data. This information is used to provide personalized care and improve our services.',
+      },
+      {
+        id: 3,
+        question: 'What types of virtual care services does Winhealth.Care offer?',
+        answer:
+          'Winhealth.Care offers a range of virtual care services, including video consultations with care providers, messaging for communication, and access to educational resources.',
+      },
+      {
+        id: 4,
+        question: 'Can I receive prescriptions through virtual care at Winhealth.Care?',
+        answer:
+          'No, prescriptions cannot be issued through virtual care at Winhealth.Care. Please consult a healthcare professional should you require prescriptions for medications or diagnostic tests.',
+      },
+    ],
   },
 ];
 
@@ -76,18 +123,16 @@ const QnASection = () => {
               onClick={() => setCurrentSection(section.value)}
             >
               <span
-                className={`font-ptSans font-bold uppercase ${
-                  section.value === currentSection
+                className={`font-ptSans font-bold uppercase ${section.value === currentSection
                     ? 'text-themeBlue underline'
                     : 'text-lightBrown'
-                } text-sm underline-offset-4 md:text-base`}
+                  } text-sm underline-offset-4 md:text-base`}
               >
                 {section.label}
               </span>
               <span
-                className={`${
-                  index === sections.length - 1 ? 'hidden' : 'inline'
-                } ml-2 text-lightBrown no-underline md:ml-4`}
+                className={`${index === sections.length - 1 ? 'hidden' : 'inline'
+                  } ml-2 text-lightBrown no-underline md:ml-4`}
               >
                 |
               </span>

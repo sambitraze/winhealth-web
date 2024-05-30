@@ -19,7 +19,7 @@ const ForPatientsHerosection = () => {
             }
             type={'herosection'}
           />
-          <CustomLink text={'Contact Us'} link={'#'} />
+          <CustomLink text={'Contact Us'} link={'/contact-us-provider'} />
         </div>
         <Image
           src={'/assets/provider-bg.svg'}

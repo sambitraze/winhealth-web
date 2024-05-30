@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './Logo';
+import LogoTransparant from './LogoTransparant';
 import { FOOTER_ITEMS, SOCIAL_ITEMS } from '../contants/footerItems';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -23,10 +23,18 @@ const Footer = () => {
             </div>
             <div className="hidden flex-col gap-2 md:flex md:gap-4">
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
-                Address
+                Address & Contact
               </p>
               <p className='tracking-wide text-white'>
-                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21 LIVING BUNGALOW NO.18 DIVINE ROAD, SCIENCE CITY AHMEDABAD Ahmedabad GJ 380060 IN
+                <a href='mailto:info@winhealth.care' key='email1' >info@winhealth.care,
+                </a>&nbsp;&nbsp;
+                <a href='mailto:support@winhealth.care' key='email2'>support@winhealth.care,
+                </a>&nbsp;&nbsp;
+                <a href='tel:+919773916168' key='phone1' >+919773916168
+                </a>
+              </p>
+              <p className='tracking-wide text-white'>
+                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21 LIVING BUNGALOW DIVINE ROAD, SCIENCE CITY AHMEDABAD GJ 380060 IN
               </p>
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us
@@ -124,7 +132,7 @@ const Footer = () => {
         </div>
         <hr />
         <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
-          <Logo />
+          <LogoTransparant />
           <p className="font-proxima text-sm text-white md:text-base md:uppercase">
             All right reserve 2023 ©
           </p>

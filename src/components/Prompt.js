@@ -8,12 +8,12 @@ const Prompt = () => {
           href={'#'}
           className="text-sm underline underline-offset-2 md:text-base"
         >
-          Launching Soon
+          {/* Launching Soon */}
         </a>
         <div className="hidden items-center justify-between gap-8 md:flex">
-          <a href={'tel:#'}>+91 73761 13646</a>
-          <a href={'mailto:#'}>shashank12winger@gmail.com</a>
-          <a href="#" className="underline underline-offset-2">
+          {/* <a href={'tel:#'}>+91 73761 13646</a> */}
+          <a href={'mailto:#'}>info@winhealth.care</a>
+          <a href="/contact-us" className="underline underline-offset-2">
             Contact Us
           </a>
         </div>

@@ -26,6 +26,7 @@ const BlogCard = ({ title, link, imageURL, date, isEven }) => {
         </p>
         <a
           href={link}
+          target='_blank'
           className={`
             ${
               isEven ? 'hover:text-themeMediumGrey' : 'hover:text-themeWhite'

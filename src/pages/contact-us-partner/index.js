@@ -6,7 +6,7 @@ const CONTACTUS = () => {
     name: '',
     number: '',
     message: '',
-    who: 'customer',
+    who: 'doctor',
   });
   const [message, setMessage] = useState('');
 
@@ -38,13 +38,13 @@ const CONTACTUS = () => {
       name: '',
       number: '',
       message: '',
-      who: 'customer',
+      who: 'doctor',
     });
   };
   return (
     <Layout>
       <div className="max-w-md mx-auto mt-10">
-        <h1 className="text-2xl font-bold mb-5">Contact Us</h1>
+        <h1 className="text-2xl font-bold mb-5">Contact Us (for partners)</h1>
         {message && <p className={message.includes("error") ? 'mb-5 text-red-500' : 'mb-5 text-green-500'}>{message}</p>}
         <form className="space-y-4" onSubmit={handleSubmit}>
           <div>
@@ -82,6 +82,22 @@ const CONTACTUS = () => {
               onChange={handleChange}
               className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
             ></textarea>
+          </div>
+          <div>
+            <label htmlFor="who" className="block text-sm font-medium text-gray-700">Reason for Contact</label>
+            <select
+              id="who"
+              name="who"
+              required={true}
+              value={formData.who}
+              onChange={handleChange}
+              className="mt-1 p-2 block w-full border border-gray-300 rounded-md shadow-sm focus:ring-themeBlue focus:border-themeBlue sm:text-sm"
+            >
+              <option value="doctor">Doctor</option>
+              <option value="hospital">Hospital</option>
+              <option value="clinic">Clinic</option>
+              <option value="company">Gut Related Company</option>
+            </select>
           </div>
           <div>
             <button

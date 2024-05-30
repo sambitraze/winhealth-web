@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 const SubscribeToNewsletterForm = () => {
   const [email, setEmail] = useState('');
-  const [error, setError] = useState(null);
+  const [message, setMessage] = useState('');
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const trimmedEmail = email.trim();
 
     if (!trimmedEmail) {
-      setError('Please enter your email address');
+      setMessage('Please enter your email address');
       return;
     }
 
@@ -19,13 +19,31 @@ const SubscribeToNewsletterForm = () => {
     const isEmailValid = emailValidRegex.test(trimmedEmail);
 
     if (!isEmailValid) {
-      setError('Please enter a valid email address');
+      setMessage('Please enter a valid email address');
       return;
+    } else {
+      const res = await fetch('https://api.winhealth.agpro.co.in/items/newsletter', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          "email": email
+        }),
+      });
+      
+      if (res.status === 204) {
+        setMessage("Subscribed successfully!");
+      } else if (res.status === 400) {
+        setMessage("Already Subscribed!");
+      } else {
+        setMessage("Some error occured, please retry!");
+      }
     }
 
     // TODO: Add post URL to the form's action URL
     setEmail('');
-    setError(null);
+    // setMessage('');
   };
 
   return (
@@ -46,7 +64,7 @@ const SubscribeToNewsletterForm = () => {
           Subscribe
         </button>
       </form>
-      {error && <p className="mt-1 text-sm text-red-500">{error}</p>}
+      {message && <p className={(message.includes("error") || message.includes("Please")) ? 'pt-4 text-red-500' : 'pt-4 text-green-500'}>{message}</p>}
     </div>
   );
 };

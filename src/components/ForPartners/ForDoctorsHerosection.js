@@ -22,7 +22,7 @@ const ForDoctorsHerosection = () => {
             }
             type={'herosection'}
           />
-          <CustomLink text={'Become our Trusted Partner'} link={'#'} />
+          <CustomLink text={'Become our Trusted Partner'} link={'/contact-us-partner'} />
         </div>
         <Image
           src={'/assets/partner-bg.svg'}

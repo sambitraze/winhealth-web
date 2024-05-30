@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }) {
       <main
         className={`${brandon.variable} ${proxima.variable} ${ptSans.variable} font-brandon`}
       >
-        <GoogleAnalytics/>
+        <GoogleAnalytics />
         <Component {...pageProps} />
         <TailwindIndicator />
       </main>

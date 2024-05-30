@@ -42,7 +42,7 @@ const HomepageHerosection = () => {
             }
             type={'herosection'}
           />
-          <CustomLink link={'#'} text={'Get Started'} />
+          <CustomLink link={'https://wa.me/+919773916168'} text={'Get Started'} />
         </div>
       </div>
     </div>
