@@ -15,18 +15,30 @@ const AboutUsHeroSection = () => {
           />
           <Description
             text={
-              'We are experts in Gut Health. And caring is our second nature.'
+              'Innovation driving care, transforming lives.'
             }
             type={'herosection'}
             className="text-lg font-semibold"
           />
           <Description
             text={
-              'In our perspective, the key to achieve improved health, extends beyond physical means; it originates within the realm of the mind, DTx (Digital Therapeutic) are evidence based therapeutic interventions driven by software to prevent, manage, or treat a medical disorder or disease. We developed an evidenced based integrative (DTx) psychological module for gut chronic disease management.'
+              `WinHealth.Care is a leading innovator in healthcare, dedicated to revolutionizing the way chronic health conditions are managed and treated. Our focus on Digital Therapeutics (DTx) has led to the development of cutting-edge solutions that improve the lives of individuals with chronic health conditions.`
             }
             type={'herosection'}
           />
-          <CustomLink link={'#'} text={'Get Started'} />
+          <Description
+            text={
+              `One of our flagship products, healOgut, is a testament to our commitment to innovation. Designed to manage Functional Gastrointestinal Disorders (FGID), healOgut offers a comprehensive treatment protocol that includes Cognitive Behavioral Therapy (CBT), mindfulness practices, gut-directed hypnosis, exercise, and diet management. `
+            }
+            type={'herosection'}
+          />
+          <Description
+            text={
+              `What sets WinHealth.Care apart is our dedication to clinically validated protocols and evidence-based practices. We work closely with hospitals, pharmaceutical companies, and healthcare professionals to ensure that our solutions meet the highest standards of efficacy and safety.`
+            }
+            type={'herosection'}
+          />
+          <CustomLink link={'/'} text={'Get Started'} />
         </div>
         <Image
           src={'/assets/about-us-hero.svg'}
