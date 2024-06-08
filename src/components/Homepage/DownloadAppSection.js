@@ -9,7 +9,7 @@ const DownloadAppSection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-10 py-10 sm:grid-cols-2">
         <Image
-          src={'/assets/app-thumbnail.png'}
+          src={'/assets/app_thumbnail2.png'}
           alt={'App Image'}
           width={500}
           height={1000}
