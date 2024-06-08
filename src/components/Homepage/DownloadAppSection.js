@@ -9,12 +9,17 @@ const DownloadAppSection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-10 py-10 sm:grid-cols-2">
         <Image
-          src={'/assets/app_thumbnail2.png'}
+          src={'/assets/app-intro.gif'}
           alt={'App Image'}
           width={500}
           height={1000}
-          className="order-2 max-h-[1000px] px-10 md:order-none"
+          className="order-2 max-h-[1000px] md:order-none"
         />
+        {/* <video width={500}
+          height={1000} controls preload="none" autoPlay muted playsinline >
+          <source src={'/assets/app-intro.mp4'} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> */}
         <div className="flex max-w-md flex-col justify-center gap-2 md:gap-4">
           <Title
             text={`heal O gut : India's First Gut Health App`}
