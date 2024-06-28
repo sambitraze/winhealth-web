@@ -10,16 +10,16 @@ const AboutUsHeroSection = () => {
       <div className="container flex flex-col justify-between gap-4 md:flex-row">
         <div className="flex w-full flex-col justify-center gap-4 md:w-1/2 lg:w-2/5">
           <Title
-            text={'WinHealth- unleash gut health & heal yOur gut (hOg).'}
+            text={'WinHealth- Innovation driving care, transforming lives.'}
             type={'herosection'}
           />
-          <Description
+          {/* <Description
             text={
               'Innovation driving care, transforming lives.'
             }
             type={'herosection'}
             className="text-lg font-semibold"
-          />
+          /> */}
           <Description
             text={
               `WinHealth.Care is a leading innovator in healthcare, dedicated to revolutionizing the way chronic health conditions are managed and treated. Our focus on Digital Therapeutics (DTx) has led to the development of cutting-edge solutions that improve the lives of individuals with chronic health conditions.`
