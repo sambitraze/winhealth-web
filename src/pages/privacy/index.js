@@ -3,9 +3,8 @@ import Layout from '../../components/Layout';
 const FAQ = () => {
   return (
     <Layout>
-      <div className="container py-8"><h1>Privacy Policy</h1>
+      <div className="container py-8"> <h1>Privacy Policy</h1>
     <p>Last updated: July 05, 2024</p>
-
     <p>This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
     <p>We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p>
 
@@ -37,7 +36,6 @@ const FAQ = () => {
         <li>Email address</li>
         <li>First name and last name</li>
         <li>Phone number</li>
-        <li>Usage Data</li>
     </ul>
 
     <h4>Usage Data</h4>
@@ -124,11 +122,18 @@ const FAQ = () => {
     <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.</p>
     <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
+    <h3>Additional Policy for Compliance</h3>
+    <h4>User Data Not for Sale</h4>
+    <p>We do not sell user Health Connect data to any third party. Your personal health information collected through our Service is solely used to provide and improve the application’s features and functionality.</p>
+
+    <h4>Compliance with Google Play Store's Policy</h4>
+    <p>Data collected from you can only be transferred to third parties to provide or improve the application’s use case or features. Data must not be used for any other purpose, including transfer to advertising platforms, data brokers, or information resellers.</p>
+
     <h3>Contact Us</h3>
     <p>If you have any questions about this Privacy Policy, You can contact us:</p>
     <ul>
         <li>By email: <a href="mailto:Shashank12winger@gmail.com">Shashank12winger@gmail.com</a></li>
-        <li>By visiting this page on our website: <a href="https://winhealth.care/">https://winhealth.care/</a></li>
+        <li>By visiting this page on our website: <a href="https://winhealth.care/" target="_blank">https://winhealth.care/</a></li>
     </ul>
       </div>
     </Layout>
