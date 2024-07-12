@@ -69,9 +69,9 @@ const FAQ = () => {
         <li><strong>With Service Providers:</strong> To monitor and analyze the use of our Service, to contact You.</li>
         <li><strong>For business transfers:</strong> During negotiations of any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
         <li><strong>With Affiliates:</strong> Our affiliates will honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners, or other companies that We control or that are under common control with Us.</li>
-        <li><strong>With business partners:</strong> To offer You certain products, services, or promotions.</li>
+        {/* <li><strong>With business partners:</strong> To offer You certain products, services, or promotions.</li> */}
         <li><strong>With other users:</strong> When You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
-        <li><strong>With Your consent:</strong> For any other purpose with Your consent.</li>
+        {/* <li><strong>With Your consent:</strong> For any other purpose with Your consent.</li> */}
     </ul>
 
     <h3>Retention of Your Personal Data</h3>
