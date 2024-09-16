@@ -19,7 +19,7 @@ const FeaturesSection = () => {
                 Integrated, coordinated care
               </p>
               <p className="font-proxima text-sm text-white md:text-base">
-                Winhealth surrounds your patients with a team of GI-specialized
+                MicroHeal surrounds your patients with a team of GI-specialized
                 clinicians, including registered dietitians, GI behavioral
                 health providers, social workers, health coaches, and more to
                 supplement your existing care and help your patients find
@@ -37,7 +37,7 @@ const FeaturesSection = () => {
                 Evidence-based care model
               </p>
               <p className="text-left font-proxima text-sm text-white md:text-right md:text-base">
-                Winhealth v takes pride in our approach to clinical rigor. Our
+                MicroHeal takes pride in our approach to clinical rigor. Our
                 clinicians all bring prior experience in gastroenterology, and
                 undergo an intensive onboarding process before seeing patients.
                 Our clinical care follows societal guidelines from the

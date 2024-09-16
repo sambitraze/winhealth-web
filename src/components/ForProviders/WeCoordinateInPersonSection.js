@@ -12,7 +12,7 @@ const WeCoordinateInPersonSection = () => {
         />
         <Description
           text={
-            'Winhealth takes a virtual-first approach to care. If members need in-person labs or diagnostics, we take a concierge approach to coordinate their care at a convenient, in-network location.'
+            'MicroHeal takes a virtual-first approach to care. If members need in-person labs or diagnostics, we take a concierge approach to coordinate their care at a convenient, in-network location.'
           }
           className="text-white"
         />

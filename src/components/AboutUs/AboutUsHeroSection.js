@@ -10,7 +10,7 @@ const AboutUsHeroSection = () => {
       <div className="container flex flex-col justify-between gap-4 md:flex-row">
         <div className="flex w-full flex-col justify-center gap-4 md:w-1/2 lg:w-2/5">
           <Title
-            text={'WinHealth- Innovation driving care, transforming lives.'}
+            text={'MicroHeal- Innovation driving care, transforming lives.'}
             type={'herosection'}
           />
           {/* <Description
@@ -21,21 +21,15 @@ const AboutUsHeroSection = () => {
             className="text-lg font-semibold"
           /> */}
           <Description
-            text={
-              `WinHealth.Care is a leading innovator in healthcare, dedicated to revolutionizing the way chronic health conditions are managed and treated. Our focus on Digital Therapeutics (DTx) has led to the development of cutting-edge solutions that improve the lives of individuals with chronic health conditions.`
-            }
+            text={`MicroHeal is a leading innovator in healthcare, dedicated to revolutionizing the way chronic health conditions are managed and treated. Our focus on Digital Therapeutics (DTx) has led to the development of cutting-edge solutions that improve the lives of individuals with chronic health conditions.`}
             type={'herosection'}
           />
           <Description
-            text={
-              `One of our flagship products, healOgut, is a testament to our commitment to innovation. Designed to manage Functional Gastrointestinal Disorders (FGID), healOgut offers a comprehensive treatment protocol that includes Cognitive Behavioral Therapy (CBT), mindfulness practices, gut-directed hypnosis, exercise, and diet management. `
-            }
+            text={`One of our flagship products, healOgut, is a testament to our commitment to innovation. Designed to manage Functional Gastrointestinal Disorders (FGID), healOgut offers a comprehensive treatment protocol that includes Cognitive Behavioral Therapy (CBT), mindfulness practices, gut-directed hypnosis, exercise, and diet management. `}
             type={'herosection'}
           />
           <Description
-            text={
-              `What sets WinHealth.Care apart is our dedication to clinically validated protocols and evidence-based practices. We work closely with hospitals, pharmaceutical companies, and healthcare professionals to ensure that our solutions meet the highest standards of efficacy and safety.`
-            }
+            text={`What sets MicroHeal apart is our dedication to clinically validated protocols and evidence-based practices. We work closely with hospitals, pharmaceutical companies, and healthcare professionals to ensure that our solutions meet the highest standards of efficacy and safety.`}
             type={'herosection'}
           />
           <CustomLink link={'/'} text={'Get Started'} />

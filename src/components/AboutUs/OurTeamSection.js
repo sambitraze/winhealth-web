@@ -10,7 +10,7 @@ const OurTeamSection = () => {
         <Title text={'our team of stalwarts'} />
         <Description
           text={
-            'At WinHealth.Care, we believe in the power of technology to transform healthcare. Our team of experts is committed to developing solutions that are not only effective but also accessible and affordable for all.'
+            'At MicroHeal, we believe in the power of technology to transform healthcare. Our team of experts is committed to developing solutions that are not only effective but also accessible and affordable for all.'
           }
         />
 

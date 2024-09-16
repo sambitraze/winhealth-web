@@ -72,7 +72,7 @@ const BenifitsOfPartnering = () => {
         <Title text={'Benefits of partnering with us'} />
         <Description
           text={
-            'At Winhealth, our commitment to value-driven care revolves around prioritizing the well-being of our patients and the excellence of their treatment. We emphasize personalized attention and the latest advancements in medical technology to ensure that each patient receives customized care tailored to their specific needs. Our objective is not only to deliver effective treatment but also to enhance the overall quality of life for every individual under our care.'
+            'At MicroHeal, our commitment to value-driven care revolves around prioritizing the well-being of our patients and the excellence of their treatment. We emphasize personalized attention and the latest advancements in medical technology to ensure that each patient receives customized care tailored to their specific needs. Our objective is not only to deliver effective treatment but also to enhance the overall quality of life for every individual under our care.'
           }
         />
         <div className="mt-8 hidden gap-x-4 gap-y-8 md:grid md:grid-cols-3">

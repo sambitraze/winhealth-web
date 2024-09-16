@@ -9,13 +9,13 @@ const sections = [
     questions: [
       {
         id: 1,
-        question: 'What is Winhealth.Care?',
+        question: 'What is MicroHeal?',
         answer:
-          ' Winhealth.Care is a digital therapeutics (DTx) company specializing in innovative solutions for managing gut health, focusing on treatment of Functional Gastrointestinal Disorders (FGID) such as Irritable Bowel Syndrome (IBS), Functional Dyspepsia etc.',
+          ' MicroHeal is a digital therapeutics (DTx) company specializing in innovative solutions for managing gut health, focusing on treatment of Functional Gastrointestinal Disorders (FGID) such as Irritable Bowel Syndrome (IBS), Functional Dyspepsia etc.',
       },
       {
         id: 2,
-        question: `How does Winhealth.Care's DTx app - healOgut, work?`,
+        question: `How does MicroHeal's DTx app - healOgut, work?`,
         answer:
           'Our app combines evidence-based protocols, including behavioral science, with personalized diet and exercise plans to manage gut health effectively.',
       },
@@ -23,7 +23,7 @@ const sections = [
         id: 3,
         question: 'What is Behavioral Science?',
         answer:
-          'Behavioral Science at Winhealth.Care encompasses a range of evidence-based practices, including cognitive behavioral therapy, mindfulness, and gut-directed hypnosis. Our experienced healthcare professionals utilize these approaches to provide quality care, focusing on achieving long-lasting effects of treatment for our users.',
+          'Behavioral Science at MicroHeal encompasses a range of evidence-based practices, including cognitive behavioral therapy, mindfulness, and gut-directed hypnosis. Our experienced healthcare professionals utilize these approaches to provide quality care, focusing on achieving long-lasting effects of treatment for our users.',
       },
       {
         id: 4,
@@ -46,9 +46,8 @@ const sections = [
       },
       {
         id: 2,
-        question: 'What payment methods does Winhealth.Care accept for billing?',
-        answer:
-          'We accept major credit cards and UPI for billing purposes.',
+        question: 'What payment methods does MicroHeal accept for billing?',
+        answer: 'We accept major credit cards and UPI for billing purposes.',
       },
       {
         id: 3,
@@ -65,13 +64,14 @@ const sections = [
     questions: [
       {
         id: 1,
-        question: 'What qualifications do the care providers at Winhealth.Care have?',
+        question:
+          'What qualifications do the care providers at MicroHeal have?',
         answer:
           'Our care providers are highly qualified professionals with expertise in fields such as gastroenterology, nutrition, psychology, and behavioral science. They undergo rigorous training to ensure they provide the best possible care to our users.',
       },
       {
         id: 2,
-        question: 'How are care providers assigned to users at Winhealth.Care?',
+        question: 'How are care providers assigned to users at MicroHeal?',
         answer:
           'Care providers are assigned based on the specific needs and preferences of each user. We take into account factors such as the type and severity of the condition, as well as any personal preferences the user may have.',
       },
@@ -84,27 +84,30 @@ const sections = [
     questions: [
       {
         id: 1,
-        question: 'How does Winhealth.Care ensure the privacy and security of my data?',
+        question:
+          'How does MicroHeal ensure the privacy and security of my data?',
         answer:
-          'Winhealth.Care takes data privacy and security seriously. We use industry-standard encryption and security protocols to protect your data from unauthorized access. Our care providers also undergo training on patient confidentiality and data security to ensure they handle sensitive information responsibly and ethically.',
+          'MicroHeal takes data privacy and security seriously. We use industry-standard encryption and security protocols to protect your data from unauthorized access. Our care providers also undergo training on patient confidentiality and data security to ensure they handle sensitive information responsibly and ethically.',
       },
       {
         id: 2,
-        question: 'What information does Winhealth.Care collect from users and how is it used?',
+        question:
+          'What information does MicroHeal collect from users and how is it used?',
         answer:
-          'Winhealth.Care collects information such as personal health data, demographic information, and usage data. This information is used to provide personalized care and improve our services.',
+          'MicroHeal collects information such as personal health data, demographic information, and usage data. This information is used to provide personalized care and improve our services.',
       },
       {
         id: 3,
-        question: 'What types of virtual care services does Winhealth.Care offer?',
+        question: 'What types of virtual care services does MicroHeal offer?',
         answer:
-          'Winhealth.Care offers a range of virtual care services, including video consultations with care providers, messaging for communication, and access to educational resources.',
+          'MicroHeal offers a range of virtual care services, including video consultations with care providers, messaging for communication, and access to educational resources.',
       },
       {
         id: 4,
-        question: 'Can I receive prescriptions through virtual care at Winhealth.Care?',
+        question:
+          'Can I receive prescriptions through virtual care at MicroHeal?',
         answer:
-          'No, prescriptions cannot be issued through virtual care at Winhealth.Care. Please consult a healthcare professional should you require prescriptions for medications or diagnostic tests.',
+          'No, prescriptions cannot be issued through virtual care at MicroHeal. Please consult a healthcare professional should you require prescriptions for medications or diagnostic tests.',
       },
     ],
   },
@@ -123,16 +126,18 @@ const QnASection = () => {
               onClick={() => setCurrentSection(section.value)}
             >
               <span
-                className={`font-ptSans font-bold uppercase ${section.value === currentSection
+                className={`font-ptSans font-bold uppercase ${
+                  section.value === currentSection
                     ? 'text-themeBlue underline'
                     : 'text-lightBrown'
-                  } text-sm underline-offset-4 md:text-base`}
+                } text-sm underline-offset-4 md:text-base`}
               >
                 {section.label}
               </span>
               <span
-                className={`${index === sections.length - 1 ? 'hidden' : 'inline'
-                  } ml-2 text-lightBrown no-underline md:ml-4`}
+                className={`${
+                  index === sections.length - 1 ? 'hidden' : 'inline'
+                } ml-2 text-lightBrown no-underline md:ml-4`}
               >
                 |
               </span>

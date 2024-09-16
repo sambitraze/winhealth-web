@@ -8,10 +8,10 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>WinHealth</title>
+        <title>MicroHeal</title>
         <meta
           name="description"
-          content="WinHealth- Unleash Gut Health & Heal your Gut (HOg)"
+          content="MicroHeal- Unleash Gut Health & Heal your Gut (HOg)"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

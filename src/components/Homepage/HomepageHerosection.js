@@ -38,11 +38,14 @@ const HomepageHerosection = () => {
           />
           <Description
             text={
-              'At Winhealth.Care, our mission is to transform healthcare through innovative digital solutions that empower individuals, enhance accessibility, and improve overall wellness. '
+              'At MicroHeal, our mission is to transform healthcare through innovative digital solutions that empower individuals, enhance accessibility, and improve overall wellness. '
             }
             type={'herosection'}
           />
-          <CustomLink link={'https://wa.me/+919773916168'} text={'Get Started'} />
+          <CustomLink
+            link={'https://wa.me/+919773916168'}
+            text={'Get Started'}
+          />
         </div>
       </div>
     </div>

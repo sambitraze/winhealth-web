@@ -9,12 +9,10 @@ const MedicalAdvisorsSection = () => {
       <div className="container py-4 md:py-10">
         <Title text="Medical Advisors" />
         <Description
-            text={
-              `At Winhealth, our dedication to value-driven care centers on the patient's well-being and the quality of treatment they receive. We prioritize personalized attention and the latest in medical technology to ensure that each patient receives tailored care that meets their unique needs. Our goal is to not only provide effective treatment but also to enhance the overall quality of life for every individual we serve.`
-            }
-            type={'herosection'}
-            className="text-center"
-          />
+          text={`At MicroHeal, our dedication to value-driven care centers on the patient's well-being and the quality of treatment they receive. We prioritize personalized attention and the latest in medical technology to ensure that each patient receives tailored care that meets their unique needs. Our goal is to not only provide effective treatment but also to enhance the overall quality of life for every individual we serve.`}
+          type={'herosection'}
+          className="text-center"
+        />
         {/* <div className="mx-auto grid max-w-screen-md gap-4 md:grid-cols-2">
           <div className="flex flex-col items-center gap-4 text-center">
             <Image

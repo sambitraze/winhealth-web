@@ -26,9 +26,9 @@ const Footer = () => {
                 Address & Contact
               </p>
               <p className='tracking-wide text-white'>
-                <a href='mailto:info@winhealth.care' key='email1' >info@winhealth.care,
+                <a href='mailto:harshank@microheal.in' key='email1' >harshank@microheal.in,
                 </a>&nbsp;&nbsp;
-                <a href='mailto:support@winhealth.care' key='email2'>support@winhealth.care,
+                <a href='mailto:karan@microheal.in' key='email2'>karan@microheal.in,
                 </a>&nbsp;&nbsp;
                 <a href='tel:+919773916168' key='phone1' >+919773916168
                 </a>
