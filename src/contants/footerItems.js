@@ -70,10 +70,15 @@ export const FOOTER_ITEMS = [
         href: '/tnc',
       },
       {
-        id:8,
+        id: 8,
         name: 'Cancellation & Refund Policy',
-        href: '/cancellation-policy'
-      }
+        href: '/cancellation-policy',
+      },
+      {
+        id: 9,
+        name: 'Delete Account Request',
+        href: '/contact-us-delete',
+      },
     ],
   },
 ];
