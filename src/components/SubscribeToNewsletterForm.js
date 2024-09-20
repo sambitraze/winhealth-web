@@ -22,22 +22,22 @@ const SubscribeToNewsletterForm = () => {
       setMessage('Please enter a valid email address');
       return;
     } else {
-      const res = await fetch('https://api.winhealth.agpro.co.in/items/newsletter', {
+      const res = await fetch('https://api.microheal.in/items/newsletter', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          "email": email
+          email: email,
         }),
       });
-      
+
       if (res.status === 204) {
-        setMessage("Subscribed successfully!");
+        setMessage('Subscribed successfully!');
       } else if (res.status === 400) {
-        setMessage("Already Subscribed!");
+        setMessage('Already Subscribed!');
       } else {
-        setMessage("Some error occured, please retry!");
+        setMessage('Some error occured, please retry!');
       }
     }
 
@@ -64,7 +64,17 @@ const SubscribeToNewsletterForm = () => {
           Subscribe
         </button>
       </form>
-      {message && <p className={(message.includes("error") || message.includes("Please")) ? 'pt-4 text-red-500' : 'pt-4 text-green-500'}>{message}</p>}
+      {message && (
+        <p
+          className={
+            message.includes('error') || message.includes('Please')
+              ? 'pt-4 text-red-500'
+              : 'pt-4 text-green-500'
+          }
+        >
+          {message}
+        </p>
+      )}
     </div>
   );
 };

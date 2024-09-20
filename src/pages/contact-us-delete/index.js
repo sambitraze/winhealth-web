@@ -1,50 +1,70 @@
 import Layout from '../../components/Layout';
 import React, { useEffect, useState } from 'react';
 
-const CONTACTUS = () => {
+const DELETEACCOUNT = () => {
   const [formData, setFormData] = useState({
     name: '',
-    number: '',
-    message: '',
-    who: 'customer',
+    email: '',
+    reason: '',
+    confirmDelete: false,
   });
   const [message, setMessage] = useState('');
 
   const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [name]: type === 'checkbox' ? checked : value,
     });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const res = await fetch('https://api.microheal.in/items/contactus', {
+    if (!formData.confirmDelete) {
+      setMessage('Please confirm that you want to delete your account.');
+      return;
+    }
+
+    const res = await fetch('https://api.microheal.in/items/support_tickets', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify({
+        object: formData.email,
+        type: 'delete_account',
+        summary: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          reason: formData.reason,
+        }),
+      }),
     });
 
     if (res.status === 204) {
-      setMessage('Response sent!');
+      setMessage('Account deletion request submitted successfully.');
     } else {
-      setMessage('Some error occured, please retry!');
+      setMessage('Some error occurred, please retry.');
     }
 
     setFormData({
       name: '',
-      number: '',
-      message: '',
-      who: 'customer',
+      email: '',
+      reason: '',
+      confirmDelete: false,
     });
   };
+
   return (
     <Layout>
       <div className="mx-auto mt-10 max-w-md">
-        <h1 className="mb-5 text-2xl font-bold">Contact Us</h1>
+        <h1 className="mb-5 text-2xl font-bold">Request Account Deletion</h1>
+        <p className="mb-5 text-sm">
+          By submitting this form, your request to delete your account will be
+          processed. Please note that all associated data will be deleted,
+          except for data required by law for retention.
+        </p>
         {message && (
           <p
             className={
@@ -76,44 +96,56 @@ const CONTACTUS = () => {
           </div>
           <div>
             <label
-              htmlFor="number"
+              htmlFor="email"
               className="block text-sm font-medium text-gray-700"
             >
-              Phone Number
+              Email
             </label>
             <input
-              type="tel"
-              id="number"
-              name="number"
+              type="email"
+              id="email"
+              name="email"
               required={true}
-              value={formData.number}
+              value={formData.email}
               onChange={handleChange}
               className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-themeBlue focus:ring-themeBlue sm:text-sm"
             />
           </div>
           <div>
             <label
-              htmlFor="message"
+              htmlFor="reason"
               className="block text-sm font-medium text-gray-700"
             >
-              Message
+              Reason for Deletion (Optional)
             </label>
             <textarea
-              id="message"
-              name="message"
+              id="reason"
+              name="reason"
               rows="4"
-              required={true}
-              value={formData.message}
+              value={formData.reason}
               onChange={handleChange}
-              className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 block w-full rounded-md border border-gray-300 p-2 shadow-sm focus:border-themeBlue focus:ring-themeBlue sm:text-sm"
             ></textarea>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">
+              <input
+                type="checkbox"
+                name="confirmDelete"
+                checked={formData.confirmDelete}
+                onChange={handleChange}
+                className="mr-2"
+              />
+              I confirm that I want to delete my account and understand that
+              this action is irreversible.
+            </label>
           </div>
           <div>
             <button
               type="submit"
               className="w-full rounded-md bg-themeBlue px-4 py-2 text-white hover:bg-themeBlue focus:outline-none focus:ring-2 focus:ring-themeBlue focus:ring-offset-2"
             >
-              Send
+              Submit Request
             </button>
           </div>
         </form>
@@ -122,4 +154,4 @@ const CONTACTUS = () => {
   );
 };
 
-export default CONTACTUS;
+export default DELETEACCOUNT;
