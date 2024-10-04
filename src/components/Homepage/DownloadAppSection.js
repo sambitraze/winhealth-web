@@ -45,11 +45,11 @@ const DownloadAppSection = () => {
               balance.
             </li>
           </ul> */}
-          <CustomLink
+          {/* <CustomLink
             text={'Discover how it works'}
             link={'#'}
             className="shadow-[rgba(0,0,0,0.15)_1.95px_1.95px_2.6px]"
-          />
+          /> */}
           <div />
           <div>
             <p className="font-semibold tracking-wide text-themeGrey md:text-lg">

@@ -13,7 +13,7 @@ const Logo = () => {
         alt="Logo"
         width={100}
         height={50}
-        className="h-auto w-[40px] cursor-pointer object-contain md:w-[60px]"
+        className="h-auto w-[60px] cursor-pointer object-contain md:w-[90px]"
       />
     </Link>
   );

@@ -12,7 +12,7 @@ const Prompt = () => {
         </a>
         <div className="hidden items-center justify-between gap-8 md:flex">
           {/* <a href={'tel:#'}>+91 73761 13646</a> */}
-          <a href={'mailto:harshank@microheal.in'}>info@microheal.in</a>
+          {/* <a href={'mailto:harshank@microheal.in'}>info@microheal.in</a> */}
           <a href="/contact-us" className="underline underline-offset-2">
             Contact Us
           </a>

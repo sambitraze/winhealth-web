@@ -24,7 +24,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="py-4 shadow-xl">
+    <div className="py-2 shadow-xl">
       <div className="container flex items-center justify-between">
         <Logo />
 

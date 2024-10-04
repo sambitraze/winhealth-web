@@ -69,7 +69,10 @@ const Footer = () => {
               Download App
             </p>
             <div className="flex items-center gap-2 md:gap-4">
-              <a href="https://apps.apple.com/app/healogut/id6468660817">
+              <Link
+                target="_blank"
+                href="https://apps.apple.com/app/healogut/id6468660817"
+              >
                 <Image
                   src={'/assets/app-store.png'}
                   alt={'App Store'}
@@ -77,8 +80,11 @@ const Footer = () => {
                   height={60}
                   className="h-auto max-w-[120px]"
                 />
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.winhealth.healogut">
+              </Link>
+              <Link
+                target="_blank"
+                href="https://play.google.com/store/apps/details?id=com.winhealth.healogut"
+              >
                 <Image
                   src={'/assets/play-store.png'}
                   alt={'App Store'}
@@ -86,7 +92,7 @@ const Footer = () => {
                   height={60}
                   className="h-auto max-w-[120px]"
                 />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -103,6 +109,7 @@ const Footer = () => {
                   {item.links.map((link) => {
                     return (
                       <Link
+                        target="_blank"
                         key={link.id}
                         href={link.href}
                         className="font-proxima text-white underline-offset-2 hover:underline md:uppercase"
@@ -123,7 +130,7 @@ const Footer = () => {
             <div className="flex items-center gap-2 md:gap-4">
               {SOCIAL_ITEMS.map((item) => {
                 return (
-                  <a href={item.href} key={item.id}>
+                  <Link target="_blank" href={item.href} key={item.id}>
                     <Image
                       src={item.image.src}
                       alt={item.image.alt}
@@ -131,7 +138,7 @@ const Footer = () => {
                       height={30}
                       className="max-h-[25px] max-w-[25px] object-contain md:max-h-[30px] md:max-w-[30px]"
                     />
-                  </a>
+                  </Link>
                 );
               })}
             </div>
