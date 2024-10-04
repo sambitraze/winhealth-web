@@ -72,9 +72,9 @@ const ConditionCard = ({ condition }) => {
 
 const ConditionsWeTreatSection = () => {
   return (
-    <div className='bg-themeWhite'>
+    <div className="bg-themeWhite">
       <div className="container py-4 md:py-10">
-        <Title text="Conditions We Treat" />
+        <Title text="Conditions We Treat" className={'capitalize'} />
         <div className="hidden gap-4 py-4 md:grid md:grid-cols-3 md:py-10">
           {conditions.map((condition) => {
             return <ConditionCard key={condition.id} condition={condition} />;
@@ -99,7 +99,8 @@ const ConditionsWeTreatSection = () => {
             })}
           </Carousel>
         </div>
-      </div></div>
+      </div>
+    </div>
   );
 };
 

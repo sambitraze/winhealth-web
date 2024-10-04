@@ -6,9 +6,9 @@ const BlogsSection = ({ sectionName, blogs }) => {
   const reversedBlogs = [...blogs].reverse();
   return (
     <div className="container py-10">
-      <Title text={sectionName} />
-      {
-        reversedBlogs.length > 0 ? <div className="mt-7 pb-10">
+      <Title text={sectionName} className={'capitalize'} />
+      {reversedBlogs.length > 0 ? (
+        <div className="mt-7 pb-10">
           <Carousel
             slideSize="25%"
             slideGap="md"
@@ -26,9 +26,7 @@ const BlogsSection = ({ sectionName, blogs }) => {
                 <Carousel.Slide key={index}>
                   <BlogCard
                     key={index}
-                    title={
-                      item['title']
-                    }
+                    title={item['title']}
                     link={item['link']}
                     imageURL={item['imageURL']}
                     date={item['date']}
@@ -38,15 +36,14 @@ const BlogsSection = ({ sectionName, blogs }) => {
               );
             })}
           </Carousel>
-        </div> : <div className='pt-10 text-center'>
-          <a
-            href={'#'}
-            className="text-xl "
-          >
+        </div>
+      ) : (
+        <div className="pt-10 text-center">
+          <a href={'#'} className="text-xl ">
             No Blogs!
-          </a></div>
-      }
-
+          </a>
+        </div>
+      )}
     </div>
   );
 };

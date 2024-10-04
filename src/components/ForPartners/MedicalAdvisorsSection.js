@@ -7,7 +7,8 @@ const MedicalAdvisorsSection = () => {
   return (
     <div className="bg-white">
       <div className="container py-4 md:py-10">
-        <Title text="Medical Advisors" />
+        <Title text="Medical Advisors" 
+            className={'capitalize'}/>
         <Description
           text={`At MicroHeal, our dedication to value-driven care centers on the patient's well-being and the quality of treatment they receive. We prioritize personalized attention and the latest in medical technology to ensure that each patient receives tailored care that meets their unique needs. Our goal is to not only provide effective treatment but also to enhance the overall quality of life for every individual we serve.`}
           type={'herosection'}

@@ -45,7 +45,8 @@ const RelationshipCareAndDeliveredVirtuallySection = () => {
   return (
     <div className="py-4 md:py-10">
       <div className="container">
-        <Title text={'Better digestive health outcomes'} />
+        <Title text={'Better digestive health outcomes'} 
+            className={'capitalize'}/>
         <div className="mt-8 hidden gap-x-4 gap-y-8 md:grid md:grid-cols-3">
           {facilities.map((facility) => {
             return <FacilityCard key={facility.id} facility={facility} />;

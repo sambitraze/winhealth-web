@@ -8,7 +8,7 @@ const WeCoordinateInPersonSection = () => {
       <div className="container">
         <Title
           text={'We coordinate in-person care'}
-          className="text-white lg:text-4xl"
+          className="text-white lg:text-4xl capitalize"
         />
         <Description
           text={

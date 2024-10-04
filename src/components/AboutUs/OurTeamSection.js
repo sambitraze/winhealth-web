@@ -7,7 +7,7 @@ const OurTeamSection = () => {
   return (
     <div className="py-7 md:py-14">
       <div className="container">
-        <Title text={'our team of stalwarts'} />
+        <Title text={'our team of stalwarts'} className={'capitalize'} />
         <Description
           text={
             'At MicroHeal, we believe in the power of technology to transform healthcare. Our team of experts is committed to developing solutions that are not only effective but also accessible and affordable for all.'

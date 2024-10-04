@@ -8,7 +8,7 @@ const OurTeamSection = () => {
   return (
     <div className="py-7 md:py-14">
       <div className="container">
-        <Title text={'Our Founders'} />
+        <Title text={'Our Founders'} className={'capitalize'} />
         <Description
           text={
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi.'

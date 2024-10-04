@@ -8,7 +8,11 @@ const PricingHerosection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-4 py-4 md:grid-cols-2">
         <div className="flex flex-col justify-center gap-2">
-          <Title type={'herosection'} text={'Caring is priceless'} />
+          <Title
+            type={'herosection'}
+            text={'Caring is priceless'}
+            className={'capitalize'}
+          />
           <Description
             text={
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse venenatis gravida est, in porttitor orci vulputate quis. Integer eu tempor magna, ac auctor est. Duis eu fringilla purus. Phasellus sit amet aliquam mi. Donec id elementum urna. Aenean et est odio. Nunc nunc neque, venenatis fringilla nunc.'

@@ -69,7 +69,10 @@ const BenifitsOfPartnering = () => {
   return (
     <div className="bg-white py-4 md:py-10">
       <div className="container">
-        <Title text={'Benefits of partnering with us'} />
+        <Title
+          text={'Benefits of partnering with us'}
+          className={'capitalize'}
+        />
         <Description
           text={
             'At MicroHeal, our commitment to value-driven care revolves around prioritizing the well-being of our patients and the excellence of their treatment. We emphasize personalized attention and the latest advancements in medical technology to ensure that each patient receives customized care tailored to their specific needs. Our objective is not only to deliver effective treatment but also to enhance the overall quality of life for every individual under our care.'

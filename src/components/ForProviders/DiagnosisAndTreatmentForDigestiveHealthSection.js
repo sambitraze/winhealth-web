@@ -8,7 +8,8 @@ const DiagnosisAndTreatmentForDigestiveHealthSection = () => {
   return (
     <div className='bg-themeWhite'>
       <div className="container py-4 md:py-10 ">
-        <Title text={'Diagnosis and treatment for digestive health'} />
+        <Title text={'Diagnosis and treatment for digestive health'} 
+            className={'capitalize'}/>
         <Description
           text={
             'We’ve redesigned GI care around what patients really want and need – supportive, whole-person care that is also dramatically less expensive.'

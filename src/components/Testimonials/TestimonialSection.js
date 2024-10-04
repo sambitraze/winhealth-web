@@ -7,30 +7,32 @@ import Title from '../Title';
 const TestimonialSection = () => {
   const data = [
     {
-      "name": "Aniruddh Shah",
-      "designation": "Businessman",
-      "message": "After years of battling irritable bowel syndrome (IBS), I decided to try the gut-based digital therapeutics program for functional disorders. It was a game-changer! The personalized approach and comprehensive support helped me manage my IBS symptoms effectively. I finally feel like I have control over my gut health."
-    }, 
-    {
-      "name": "Prakash Vyas",
-      "designation": "Software Engineer",
-      "message": " I suffered from chronic acid reflux for as long as I can remember. Joining the gut-based digital therapeutic program was the best decision I ever made. Not only did it help me find relief from my acid reflux, but it also educated me on maintaining a healthy gut. I can't thank the program enough!"
+      name: 'Aniruddh Shah',
+      designation: 'Businessman',
+      message:
+        'After years of battling irritable bowel syndrome (IBS), I decided to try the gut-based digital therapeutics program for functional disorders. It was a game-changer! The personalized approach and comprehensive support helped me manage my IBS symptoms effectively. I finally feel like I have control over my gut health.',
     },
     {
-      "name": "Rajesh singh",
-      "designation": "Marketing Head",
-      "message": "As someone who has been dealing with chronic constipation, I was skeptical about trying yet another solution. However, the gut-based digital therapeutics program exceeded my expectations. It offered a holistic approach to address my condition, and I've experienced regular bowel movements like never before."
+      name: 'Prakash Vyas',
+      designation: 'Software Engineer',
+      message:
+        " I suffered from chronic acid reflux for as long as I can remember. Joining the gut-based digital therapeutic program was the best decision I ever made. Not only did it help me find relief from my acid reflux, but it also educated me on maintaining a healthy gut. I can't thank the program enough!",
     },
-  ]
+    {
+      name: 'Rajesh singh',
+      designation: 'Marketing Head',
+      message:
+        "As someone who has been dealing with chronic constipation, I was skeptical about trying yet another solution. However, the gut-based digital therapeutics program exceeded my expectations. It offered a holistic approach to address my condition, and I've experienced regular bowel movements like never before.",
+    },
+  ];
   return (
     <div className="bg-themeWhite py-7 md:py-14">
       <div className="container">
-        <Title text={'We have earned a Lifetime of trust'} />
-        <Description
-          text={
-            ''
-          }
+        <Title
+          text={'We have earned a Lifetime of trust'}
+          className={'capitalize'}
         />
+        <Description text={''} />
 
         <div className="mt-7 hidden justify-center gap-6 md:mt-14 md:grid md:grid-cols-3">
           {data.map((item, index) => {

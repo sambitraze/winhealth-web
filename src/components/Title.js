@@ -5,7 +5,7 @@ const Title = ({ text, className, type }) => {
     return (
       <p
         className={twMerge(
-          'text-xl font-bold capitalize tracking-wide text-themeGrey md:text-2xl lg:text-4xl',
+          'text-xl font-bold tracking-wide text-themeGrey md:text-2xl lg:text-4xl',
           className
         )}
         style={{
@@ -19,7 +19,7 @@ const Title = ({ text, className, type }) => {
   return (
     <p
       className={twMerge(
-        `mb-2 text-center text-2xl font-bold capitalize text-themeGrey md:mb-4 md:text-3xl`,
+        `mb-2 text-center text-2xl font-bold text-themeGrey md:mb-4 md:text-3xl`,
         className
       )}
     >

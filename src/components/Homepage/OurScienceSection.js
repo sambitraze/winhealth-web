@@ -7,7 +7,7 @@ const OurScienceSection = () => {
   return (
     <div className="bg-themeWhite">
       <div className="container py-10">
-        <Title text={'Our Science'} />
+        <Title text={'Our Science'} className={'capitalize'} />
         <Description
           text={
             'Did you know? Your gut health affects 70% of your immune system and is linked to chronic diseases like eczema, Type 2 diabetes, and cancer. Identifying and addressing gut issues is crucial. We believe in a balanced approach to gut health, integrating physical and mental well-being. Trust us to help you achieve your full potential, personally and for your gut health.'

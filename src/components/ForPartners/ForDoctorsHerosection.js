@@ -15,6 +15,7 @@ const ForDoctorsHerosection = () => {
           <Title
             type={'herosection'}
             text={'Powering Providers, Elevating Care'}
+            className={'capitalize'}
           />
           <Description
             text={

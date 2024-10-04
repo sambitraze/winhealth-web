@@ -6,7 +6,7 @@ import { twMerge } from 'tailwind-merge';
 
 const cardData = [
   {
-    title: 'IBS',
+    title: 'Irritable Bowel Syndrome',
     description:
       'Chronic gut disorder with abdominal pain, bloating, constipation/diarrhea.',
   },
@@ -15,7 +15,7 @@ const cardData = [
     description: 'Recurring upper abdominal pain, indigestion.',
   },
   {
-    title: 'GERD',
+    title: 'Gastroesophageal Reflux Disease',
     description: 'Chronic acid reflux causing heartburn, chest pain.',
   },
   {
@@ -23,7 +23,7 @@ const cardData = [
     description: 'Bowel movement issues without physical cause.',
   },
   {
-    title: 'SIBO',
+    title: 'Small Intestinal Bacterial Overgrowth',
     description:
       'Excessive bacterial growth in small intestine causing bloating, diarrhea.',
   },
@@ -44,7 +44,7 @@ const cardData = [
 const Card = ({ title, description, className }) => {
   return (
     <div className={twMerge(`text-white`, className)}>
-      <p className="font-brandon text-base font-semibold md:text-lg">{title}</p>
+      <p className="font-brandon text-base font-semibold md:text-lg capitalize">{title}</p>
       <p className="max-w-[300px] font-proxima text-sm md:text-base">
         {description}
       </p>
@@ -75,13 +75,11 @@ const ConditionWeTreatedSection = () => {
   return (
     <div className="bg-themeBlue">
       <div className="container py-4 md:py-10">
-        <Title text={'Condition we treat -FGID '} className="text-white" />
-        <Description
-          text={
-            ''
-          }
-          className="text-white"
+        <Title
+          text={'Conditions we treat - FGID '}
+          className="capitalize text-white"
         />
+        <Description text={''} className="text-white" />
         <div className="mt-10 hidden grid-cols-3 md:grid">
           <div className="flex flex-col items-end justify-between text-right">
             {CardComponents.slice(0, 4)}

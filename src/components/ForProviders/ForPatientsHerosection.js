@@ -12,7 +12,11 @@ const ForPatientsHerosection = () => {
           <p className="font-proxima text-2xl font-semibold uppercase tracking-wide text-themeBlue">
             For pharmaceutical and Health Insurers
           </p>
-          <Title type={'herosection'} text={'Life-changing digestive care'} />
+          <Title
+            type={'herosection'}
+            text={'Life-changing digestive care'}
+            className={'capitalize'}
+          />
           <Description
             text={`Addressing chronic conditions required care that is convenient, collaborative, and coordinated—the three pillars of effective treatment. Partnering with MicroHeal enhances pharmaceutical companies' offerings with innovative, cost-effective DTx solutions, improving patient outcomes.`}
             type={'herosection'}

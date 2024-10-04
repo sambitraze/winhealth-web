@@ -89,7 +89,7 @@ export const SOCIAL_ITEMS = [
     name: 'Medium',
     href: 'https://medium.com/@whealth1234',
     image: {
-      src: '/assets/medium-logo.png',
+      src: '/assets/me-logo.png',
       alt: 'twitter',
     },
   },
@@ -98,8 +98,26 @@ export const SOCIAL_ITEMS = [
     name: 'Linkedin',
     href: 'https://www.linkedin.com/company/win-health',
     image: {
-      src: '/assets/linkedin.svg',
+      src: '/assets/in-logo.png',
       alt: 'linkedin',
+    },
+  },
+  {
+    id: 3,
+    name: 'Instagram',
+    href: 'https://www.linkedin.com/company/win-health',
+    image: {
+      src: '/assets/insta-logo.jpg',
+      alt: 'instagram',
+    },
+  },
+  {
+    id: 4,
+    name: 'Twitter',
+    href: 'https://www.linkedin.com/company/win-health',
+    image: {
+      src: '/assets/twitter.jpg',
+      alt: 'twitter',
     },
   },
 ];

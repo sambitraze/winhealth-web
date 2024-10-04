@@ -8,7 +8,7 @@ const FaqHerosection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-4 py-4 md:grid-cols-2">
         <div className="flex flex-col justify-center gap-2">
-          <Title type={'herosection'} text={'FAQ'} />
+          <Title type={'herosection'} text={'FAQ'} className={'capitalize'} />
           <Description
             text={
               'We all know that Healthcare usually causes queries, concerns, and doubts to arise, so we’re here to put your mind at ease. It’s only natural to have some essential questions before you embark on a journey to blissfulness, and here are our answers. '

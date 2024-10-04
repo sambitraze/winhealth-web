@@ -6,9 +6,12 @@ import Image from 'next/image';
 
 const SilentAndSignificantProblemSection = () => {
   return (
-    <div className='bg-themeWhite'>
+    <div className="bg-themeWhite">
       <div className="container py-4 md:py-10 ">
-        <Title text={'A silent and significant problem'} />
+        <Title
+          text={'A silent and significant problem'}
+          className={'capitalize'}
+        />
         <Description
           text={
             'You might not know it – people with digestive health issues don’t like to bring it up – but millions of people are struggling with their GI health right now.'
@@ -80,8 +83,8 @@ const SilentAndSignificantProblemSection = () => {
               </div>
             </div>
             <p className="text-center text-themeMediumGrey">
-              Most GI patients are not satisfied with their current care, causing
-              many to give up on preventive care
+              Most GI patients are not satisfied with their current care,
+              causing many to give up on preventive care
             </p>
           </div>
         </div>
@@ -90,7 +93,8 @@ const SilentAndSignificantProblemSection = () => {
           link={'#'}
           className="mx-auto block"
         />
-      </div></div>
+      </div>
+    </div>
   );
 };
 

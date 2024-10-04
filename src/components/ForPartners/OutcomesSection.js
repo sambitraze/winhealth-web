@@ -5,7 +5,7 @@ const OutcomesSection = () => {
   return (
     <div className="bg-White">
       <div className="container py-4 md:py-10">
-        <Title text="Outcomes" />
+        <Title text="Outcomes" className={'capitalize'} />
         <div className="mx-auto grid max-w-screen-md gap-6 text-center md:grid-cols-2">
           <div>
             <p className="font-brandon text-6xl font-bold text-themeGrey md:text-8xl">

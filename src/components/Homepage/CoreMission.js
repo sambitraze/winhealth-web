@@ -10,6 +10,7 @@ const CoreMission = () => {
             <Title
                 text={'Our core mission is to enhance lives and improve health outcomes.'}
                 type={'herosection'}
+                className={'capitalize'}
             />
             <Description
                 text={

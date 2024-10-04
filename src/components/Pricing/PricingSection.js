@@ -5,7 +5,7 @@ import Image from 'next/image';
 const PricingSection = () => {
   return (
     <div className="container py-10">
-      <Title type={'section'} text={'Our Plans'} />
+      <Title type={'section'} text={'Our Plans'} className={'capitalize'} />
 
       {/* Desktop */}
       <div className="mx-auto hidden max-w-screen-lg py-10 md:block">

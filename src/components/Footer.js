@@ -11,30 +11,37 @@ const Footer = () => {
       <div className="container flex flex-col gap-10 py-10">
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:gap-12 lg:grid-cols-12">
           <div className="flex flex-col gap-2 md:gap-4 lg:col-span-4">
-            <p className="font-semibold uppercase tracking-wide text-white md:text-lg">
-              Subscribe to latest updates
-            </p>
+            {/* <p className="font-semibold uppercase tracking-wide text-white md:text-lg">
+              Get tips regarding digestive health and more delivered
+              straight to your inbox
+            </p> */}
             <SubscribeToNewsletterForm />
             <div className="flex flex-col gap-2 md:gap-4">
               <p className="font-light text-white">
-                Sign up and receive exclusive curated only for our expert
-                bulletin as well as blogs and articles
+                Get tips regarding digestive health and more delivered
+                straight to your inbox
               </p>
             </div>
-            <div className="hidden flex-col gap-2 md:flex md:gap-4">
+            <div className=" flex-col gap-2 py-4 md:flex md:gap-4">
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Address & Contact
               </p>
-              <p className='tracking-wide text-white'>
-                <a href='mailto:harshank@microheal.in' key='email1' >harshank@microheal.in,
+              <p className="tracking-wide text-white">
+                {/* <a href='mailto:harshank@microheal.in' key='email1' >harshank@microheal.in,
                 </a>&nbsp;&nbsp;
                 <a href='mailto:karan@microheal.in' key='email2'>karan@microheal.in,
-                </a>&nbsp;&nbsp;
-                <a href='tel:+919773916168' key='phone1' >+919773916168
+                </a>&nbsp;&nbsp; */}
+                <a href="mailto:info@microheal.in" key="email2">
+                  info@microheal.in,
+                </a>
+                &nbsp;&nbsp;
+                <a href="tel:+919773916168" key="phone1">
+                  +919773916168
                 </a>
               </p>
-              <p className='tracking-wide text-white'>
-                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21 LIVING BUNGALOW DIVINE ROAD, SCIENCE CITY AHMEDABAD GJ 380060 IN
+              <p className="tracking-wide text-white">
+                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21
+                LIVING BUNGALOW DIVINE ROAD, SCIENCE CITY AHMEDABAD GJ 380060 IN
               </p>
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us

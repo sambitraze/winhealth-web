@@ -29,7 +29,7 @@ const DownloadAppSection = () => {
           />
           <Description
             text={
-              'Heal O Gut offers a clinically validated protocol combining behavioral and nutritional therapy to effectively treat chronic conditions. Our app provides personalized solutions for improved health outcomes, revolutionizing chronic condition management with a scientifically proven approach.'
+              'heal O gut offers a clinically validated protocol combining behavioral and nutritional therapy to effectively treat chronic conditions. Our app provides personalized solutions for improved health outcomes, revolutionizing chronic condition management with a scientifically proven approach.'
             }
             className={'text-left text-sm text-themeMediumGrey md:text-base'}
           />

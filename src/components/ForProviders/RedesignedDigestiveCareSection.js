@@ -7,7 +7,7 @@ import CustomLink from '../CustomLink';
 const RedesignedDigestiveCareSection = () => {
   return (
     <div className="container py-4 md:py-10">
-      <Title text="Redesigned digestive care" />
+      <Title text="Redesigned digestive care" className={'capitalize'} />
       <Description text="The burdens of digestive health are significant: People bounce from gastroenterologist to nutritionist to primary care. They struggle to find diet and psychology specialists who understand their condition. They may not be able to afford behavioral health support if it’s not a covered benefit. Many give up on finding a solution." />
       <Image
         src={'/assets/redesigned-digestive-care.png'}

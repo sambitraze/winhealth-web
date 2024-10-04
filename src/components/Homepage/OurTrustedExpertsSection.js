@@ -18,12 +18,10 @@ const OurTrustedExpertsSection = () => {
           <Title
             text={'our trusted experts at your care'}
             type={'herosection'}
-            className={'text-center text-white md:text-left'}
+            className={'text-center capitalize text-white md:text-left'}
           />
           <Description
-            text={
-              `In today's digital era, where convenience meets technology, we proudly introduce our latest innovation – an app designed with you in mind. At the core of our application, we believe in not just offering a service but providing a solution that comes with the assurance of quality, reliability, and unparalleled expertise. "Our Trusted Experts At Your Care" isn't just a motto; it's the foundation upon which our app is built.`
-            }
+            text={`In today's digital era, where convenience meets technology, we proudly introduce our latest innovation – an app designed with you in mind. At the core of our application, we believe in not just offering a service but providing a solution that comes with the assurance of quality, reliability, and unparalleled expertise. "Our Trusted Experts At Your Care" isn't just a motto; it's the foundation upon which our app is built.`}
             className={
               'text-center text-sm text-white md:text-left md:text-base'
             }

@@ -69,7 +69,8 @@ const RelationshipCareAndDeliveredVirtuallySection = () => {
   return (
     <div className="bg-white py-4 md:py-10">
       <div className="container">
-        <Title text={'Relationship care, delivered virtually'} />
+        <Title text={'Relationship care, delivered virtually'} 
+            className={'capitalize'}/>
         <Description
           text={
             'You might not know it – people with digestive health issues don’t like to bring it up – but millions of people are struggling with their GI health right now.'

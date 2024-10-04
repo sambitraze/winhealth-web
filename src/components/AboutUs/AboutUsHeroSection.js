@@ -11,6 +11,7 @@ const AboutUsHeroSection = () => {
         <div className="flex w-full flex-col justify-center gap-4 md:w-1/2 lg:w-2/5">
           <Title
             text={'MicroHeal- Innovation driving care, transforming lives.'}
+            className={'capitalize'}
             type={'herosection'}
           />
           {/* <Description

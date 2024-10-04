@@ -6,7 +6,10 @@ import CustomLink from '../CustomLink';
 const BecomeAPartnerSection = () => {
   return (
     <div className="container py-4 md:py-10">
-      <Title text={'We’re seeking high-quality local GI partners'} />
+      <Title
+        text={'We’re seeking high-quality local GI partners'}
+        className={'capitalize'}
+      />
       <Description
         text={
           'When our members need procedures, we coordinate care with high-quality local GI partners. Let’s talk about how a partnership can work for your practice.'

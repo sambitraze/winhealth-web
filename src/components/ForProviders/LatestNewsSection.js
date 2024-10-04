@@ -6,7 +6,8 @@ import { Carousel } from '@mantine/carousel';
 const LatestNewsSection = () => {
   return (
     <div className="container py-4 md:py-10">
-      <Title text={'Latest News'} />
+      <Title text={'Latest News'} 
+            className={'capitalize'}/>
       <div className="hidden gap-4 md:grid md:grid-cols-3">
         {[1, 2, 3].map((item, index) => {
           return (

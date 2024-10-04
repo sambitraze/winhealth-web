@@ -4,8 +4,6 @@ import { Carousel } from '@mantine/carousel';
 import Title from '../Title';
 import Description from '../Description';
 
-
-
 const Services1 = [
   {
     id: 1,
@@ -39,7 +37,8 @@ const Services2 = [
   {
     id: 5,
     name: 'Dynamic Dashboard',
-    description: 'Enhance symptom monitoring and activity tracking to support treatment outcomes.',
+    description:
+      'Enhance symptom monitoring and activity tracking to support treatment outcomes.',
     icon: '/assets/facilities/service5.svg',
   },
   {
@@ -51,7 +50,8 @@ const Services2 = [
   {
     id: 7,
     name: 'Mind-Gut Holistic care',
-    description: 'A suite of healthcare professionals to ensure quality care at all times',
+    description:
+      'A suite of healthcare professionals to ensure quality care at all times',
     icon: '/assets/facilities/service7.svg',
   },
 ];
@@ -69,7 +69,7 @@ const FacilityCard = ({ facility }) => {
       <p className="text-center text-2xl font-bold tracking-wider">
         {facility.name}
       </p>
-      <p className="text-center text-l tracking-wider">
+      <p className="text-l text-center tracking-wider">
         {facility.description}
       </p>
     </div>
@@ -79,8 +79,15 @@ const FacilityCard = ({ facility }) => {
 const FacilitiesSection = () => {
   return (
     <div className="container py-12">
-      <Title text={'Comprehensive Treatment Services'} />
-      <Description text={'You might not know it – people with digestive health issues don’t like to bring it up – but millions of people are struggling with their GI health right now.'} />
+      <Title
+        text={'Comprehensive Treatment Services'}
+        className={'capitalize'}
+      />
+      <Description
+        text={
+          'You might not know it – people with digestive health issues don’t like to bring it up – but millions of people are struggling with their GI health right now.'
+        }
+      />
       <div className="hidden grid-cols-3 gap-y-6 py-10 md:grid lg:grid-cols-3">
         {Services1.map((facility) => (
           <FacilityCard key={facility.id} facility={facility} />

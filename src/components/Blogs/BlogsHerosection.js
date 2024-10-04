@@ -8,16 +8,18 @@ const BlogsHerosection = () => {
     <div className="bg-themeWhite">
       <div className="container grid gap-4 py-4 md:grid-cols-2 md:py-10 lg:py-16">
         <div className="flex flex-col justify-center gap-2">
-          <Title type={'herosection'} text={'know what’s new! '} />
+          <Title
+            type={'herosection'}
+            text={'know what’s new! '}
+            className={'capitalize'}
+          />
           <Description
             text={'We regularly upgrade our blogs.'}
             type={'herosection'}
             className="font-semibold"
           />
           <Description
-            text={
-              `Welcome to our blog section where we bring you the latest updates and in-depth articles to keep you informed and inspired. Whether you're looking for practical advice, industry news, or personal growth tips, we've got something for everyone.`
-            }
+            text={`Welcome to our blog section where we bring you the latest updates and in-depth articles to keep you informed and inspired. Whether you're looking for practical advice, industry news, or personal growth tips, we've got something for everyone.`}
             type={'herosection'}
           />
         </div>

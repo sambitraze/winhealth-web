@@ -33,7 +33,10 @@ const benefits = [
 const IntegratedWithHealthBenefitSection = () => {
   return (
     <div className="container py-4 md:py-10">
-      <Title text={'Integrated with your existing health benefit ecosystem'} />
+      <Title
+        text={'Integrated with your existing health benefit ecosystem'}
+        className={'capitalize'}
+      />
       <Description
         text={
           'Members may start with digestive health concerns, but Oshi Health will coordinate with other services in your benefit ecosystem to maximize health outcomes, amplifying benefits beyond GI care.'
