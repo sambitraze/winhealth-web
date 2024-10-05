@@ -6,6 +6,7 @@ import Image from 'next/image';
 import SubscribeToNewsletterForm from './SubscribeToNewsletterForm';
 
 const Footer = () => {
+  const date = new Date();
   return (
     <div className="bg-themeDarkGrey">
       <div className="container flex flex-col gap-10 py-10">
@@ -40,8 +41,8 @@ const Footer = () => {
                 </a>
               </p>
               <p className="tracking-wide text-white">
-                MICROHEAL WELLNESS PRIVATE LIMITED,SILVER SPRING BUNGLOWS, 21
-                LIVING BUNGALOW DIVINE ROAD, SCIENCE CITY AHMEDABAD GJ 380060 IN
+                Microheal Wellness Private Limited,silver Spring Bunglows, 21
+                Living Bungalow Divine Road, Science City Ahmedabad Gj 380060 In
               </p>
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us
@@ -148,7 +149,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
           <LogoTransparant />
           <p className="font-proxima text-sm text-white md:text-base md:uppercase">
-            All right reserve 2023 ©
+            © All right reserve {date.getFullYear()}
           </p>
         </div>
       </div>

@@ -102,22 +102,22 @@ export const SOCIAL_ITEMS = [
       alt: 'linkedin',
     },
   },
-  {
-    id: 3,
-    name: 'Instagram',
-    href: 'https://www.linkedin.com/company/win-health',
-    image: {
-      src: '/assets/insta-logo.jpg',
-      alt: 'instagram',
-    },
-  },
-  {
-    id: 4,
-    name: 'Twitter',
-    href: 'https://www.linkedin.com/company/win-health',
-    image: {
-      src: '/assets/twitter.jpg',
-      alt: 'twitter',
-    },
-  },
+  // {
+  //   id: 3,
+  //   name: 'Instagram',
+  //   href: 'https://www.linkedin.com/company/win-health',
+  //   image: {
+  //     src: '/assets/insta-logo.jpg',
+  //     alt: 'instagram',
+  //   },
+  // },
+  // {
+  //   id: 4,
+  //   name: 'Twitter',
+  //   href: 'https://www.linkedin.com/company/win-health',
+  //   image: {
+  //     src: '/assets/twitter.jpg',
+  //     alt: 'twitter',
+  //   },
+  // },
 ];

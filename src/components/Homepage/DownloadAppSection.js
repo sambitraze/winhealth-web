@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Title from '../Title';
 import Description from '../Description';
 import CustomLink from '../CustomLink';
+import Link from 'next/link';
 
 const DownloadAppSection = () => {
   return (
@@ -56,7 +57,10 @@ const DownloadAppSection = () => {
               Download Now
             </p>
             <div className="flex items-center gap-4">
-              <a href="https://apps.apple.com/app/healogut/id6468660817">
+              <Link
+                href="https://apps.apple.com/app/healogut/id6468660817"
+                target="_blank"
+              >
                 <Image
                   src={'/assets/app-store.png'}
                   alt={'App Store'}
@@ -64,8 +68,11 @@ const DownloadAppSection = () => {
                   height={60}
                   className="h-auto max-w-[120px] md:max-w-[150px]"
                 />
-              </a>
-              <a href="https://play.google.com/store/apps/details?id=com.winhealth.healogut">
+              </Link>
+              <Link
+                href="https://play.google.com/store/apps/details?id=com.winhealth.healogut"
+                target="_blank"
+              >
                 <Image
                   src={'/assets/play-store.png'}
                   alt={'App Store'}
@@ -73,7 +80,7 @@ const DownloadAppSection = () => {
                   height={60}
                   className="h-auto max-w-[120px] md:max-w-[150px]"
                 />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
