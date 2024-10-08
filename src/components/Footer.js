@@ -41,8 +41,8 @@ const Footer = () => {
                 </a>
               </p>
               <p className="tracking-wide text-white">
-                Microheal Wellness Private Limited,silver Spring Bunglows, 21
-                Living Bungalow Divine Road, Science City Ahmedabad Gj 380060 In
+                MicroHeal Wellness Pvt. Ltd. 21, Silver Spring Bungalows, Divine
+                Road, Science City, Ahmedabad, Gujarat - 380060
               </p>
               <p className="font-semibold tracking-wide text-white md:text-lg md:uppercase">
                 Follow us
@@ -149,7 +149,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between gap-2 md:flex-row md:items-center">
           <LogoTransparant />
           <p className="font-proxima text-sm text-white md:text-base md:uppercase">
-            © All right reserve {date.getFullYear()}
+            © All rights reserved {date.getFullYear()}
           </p>
         </div>
       </div>
