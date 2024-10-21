@@ -20,7 +20,7 @@ const WhyGutHealth = () => {
         }
       />
       <Image
-        src={'/assets/core-mission.png'}
+        src={'/assets/core-mission-mobile.svg'}
         alt={'Homepage Background'}
         width={1920}
         height={1080}
