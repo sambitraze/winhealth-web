@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Prompt from './Prompt';
 import Footer from './Footer';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Layout = ({ children }) => {
   return (
@@ -19,6 +20,18 @@ const Layout = ({ children }) => {
       <Prompt />
       <Navbar />
       <div className="min-h-screen">{children}</div>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=AW-17098582938"
+        strategy="afterInteractive"
+      />
+      <Script id="google-gtag" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'AW-17098582938');
+        `}
+      </Script>
       <Footer />
     </>
   );
